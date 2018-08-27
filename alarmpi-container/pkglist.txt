@@ -49,3 +49,4 @@ you-get
 youtube-dl
 base
 base-devel
+openssh
