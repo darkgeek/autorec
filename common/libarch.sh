@@ -12,7 +12,7 @@ function backup_packages {
 
 function recover_packages {
     echo "Recover list of packages..."
-    sudo pacman -S - < $PKG_LIST
+    sudo pacman -S --needed - < $PKG_LIST
 
     echo "Packages from AUR should be installed manually..."
     cat $AUR_LIST
