@@ -27,20 +27,20 @@ function stow_common_dotfiles {
 
 function set_locale {
     echo "Setting locale..."
-    sed -i 's/^#en_US.UTF-8/en_US.UTF-8/' /etc/locale.gen
-    locale-gen
-    echo LANG=en_US.UTF-8 > /etc/locale.conf
+    sudo sed -i 's/^#en_US.UTF-8/en_US.UTF-8/' /etc/locale.gen
+    sudo locale-gen
+    echo LANG=en_US.UTF-8 | sudo tee /etc/locale.conf
 }
 
 function set_timezone {
     echo "Setting timezone..."
-    ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+    sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 }
 
 function set_hostname {
     echo -n "Setting hostname...Tell me your hostname: "
     read anwser
 
-    echo $anwser > /etc/hostname
-    echo "127.0.0.1 $anwser" >> /etc/hosts
+    echo $anwser | sudo tee /etc/hostname
+    echo "127.0.0.1 $anwser" | sudo tee -a /etc/hosts
 }
