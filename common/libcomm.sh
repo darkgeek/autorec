@@ -14,11 +14,11 @@ function stow_dotfile {
 function stow_all_dotfiles {
     echo "Stow all the dotfiles..."
     cd $HOME/dotfiles
-    find . -maxdepth 1 -type d ! -name ".git" ! -name "." -exec stow {} \;
+    ls | xargs stow
 }
 
 function stow_common_dotfiles {
     echo "Stow common dotfiles..."
     cd $HOME/dotfiles
-    find . -maxdepth 1 -type d ! -name ".git" ! -name "." ! -name "systemd" ! -name "archlinux-apps" -exec stow {} \;
+    ls | grep -v systemd | grep -v archlinux-apps | xargs stow
 }
