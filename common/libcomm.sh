@@ -13,12 +13,14 @@ function stow_dotfile {
 
 function stow_all_dotfiles {
     echo "Stow all the dotfiles..."
+    mv ~/.bashrc /tmp
     cd $HOME/dotfiles
     ls | xargs stow
 }
 
 function stow_common_dotfiles {
     echo "Stow common dotfiles..."
+    mv ~/.bashrc /tmp
     cd $HOME/dotfiles
     ls | grep -v systemd | grep -v archlinux-apps | xargs stow
 }
