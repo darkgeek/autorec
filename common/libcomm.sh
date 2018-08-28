@@ -62,10 +62,10 @@ function grab_great_list {
     echo "Grabing great list..."
     mkdir $HOME/Shares
     cd $HOME/Shares
-    echo -n "Tell me where can I find that, base url is enough, I'll launch w3m: "
+    echo -n "Tell me where can I find that, base url (no need http:// prefix) is enough, I'll launch w3m: "
     read anwser
 
-    w3m $anwser
+    w3m http://$anwser
 }
 
 function add_actions_file {
