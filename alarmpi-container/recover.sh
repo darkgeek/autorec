@@ -25,3 +25,12 @@ set_hostname
 echo "Setting important environment variables..."
 echo "export DISPLAY=:0" >> $HOME/.bash_profile
 echo "export PULSE_SERVER=/tmp/pulse.socket" >> $HOME/.bash_profile
+
+echo "Recover Internet..."
+grab_bridge_config
+sudo mkdir /etc/shadowsocks
+copy_bridge_config /etc/shadowsocks
+
+grab_great_list
+move_action_file /etc/privoxy/
+add_actions_file /etc/privoxy/config

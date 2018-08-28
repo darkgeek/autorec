@@ -1,6 +1,7 @@
 #!/bin/sh
 
 GREAT_LIST=$HOME/Shares/gfwlist.action
+GREAT_CONFIG=$HOME/Shares/private/shadowsocks/config.json
 
 function drag_dotfiles {
     cd $HOME
@@ -75,4 +76,9 @@ function add_actions_file {
 function move_action_file {
     echo "Moving action file..."
     sudo mv $GREAT_LIST $1
+}
+
+function copy_bridge_config {
+    echo "Moving bridge config..."
+    sudo cp $GREAT_CONFIG $1
 }
