@@ -1,0 +1,67 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+SCRIPT_NAME=`basename "$0"`
+
+function init_services {
+    echo start sshd...
+    start-stop-daemon -n sshd -S -x sshd
+
+    echo start syncthing...
+    syncthing > ~/syncthing.log 2>&1 &
+
+    echo start shadowsocks-go...
+    ~/go/bin/shadowsocks-local -c ~/Shares/private/shadowsocks/config.json > ~/shadowsocks-go.log 2>&1 &
+
+    echo start privoxy...
+    privoxy --no-daemon ~/../usr/etc/privoxy/config > privoxy.log 2>&1 &
+}
+
+function kill_services {
+    echo stop sshd...
+    start-stop-daemon -n sshd -K
+
+    echo stop syncthing...
+    start-stop-daemon -n syncthing -K
+
+    echo stop shadowsocks-go...
+    pkill -f -9 shadowsocks-local
+
+    echo stop privoxy...
+    start-stop-daemon -n privoxy -K
+}
+
+function show_help {
+    echo "Usage: $SCRIPT_NAME [-i|-k|-e CMD|-s CMD]"
+    exit 1
+}
+
+if [[ -z "$1" ]]
+then
+    show_help
+fi
+
+while getopts "ike:s:" o
+do
+    case $o in
+        i) 
+            echo start all services
+            init_services
+            ;;
+        k)
+            echo stop all services
+            kill_services
+            ;;
+        e)
+            echo stop service "$OPTARG"
+            start-stop-daemon -n "$OPTARG" -K
+            ;;
+        s)
+            echo start service "$OPTARG"
+            start-stop-daemon -b -n "$OPTARG" -S -x "$OPTARG"
+            ;;
+        ?) 
+            show_help
+            ;;
+    esac
+done
+

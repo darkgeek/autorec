@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/data/data/com.termux/files/usr/bin/bash
 
 CURRENT_DIR="$( cd "$(dirname "$0")" ; pwd -P )"
 SCRIPT_NAME=`basename "$0"`

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/data/data/com.termux/files/usr/bin/bash
 
 CURRENT_DIR=`dirname "$0"`
 SCRIPT_NAME=`basename "$0"`
