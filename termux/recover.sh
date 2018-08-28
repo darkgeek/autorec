@@ -24,6 +24,7 @@ stow_common_dotfiles
 echo "Grabing toybox..."
 mkdir $HOME/bin
 wget -c http://landley.net/toybox/bin/toybox-armv7l -O $HOME/bin/toybox
+chmod +x $HOME/bin/toybox
 echo "alias top='toybox top'" >> $HOME/.bash_profile
 echo "alias uptime='toybox uptime'" >> $HOME/.bash_profile
 echo "alias ps='toybox ps'" >> $HOME/.bash_profile
