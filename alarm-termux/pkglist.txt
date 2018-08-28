@@ -22,3 +22,4 @@ youtube-dl
 base
 base-devel
 openssh
+w3m

@@ -25,3 +25,4 @@ base-devel
 openssh
 mit-scheme
 racket
+w3m
