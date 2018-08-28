@@ -6,6 +6,11 @@ SCRIPT_NAME=`basename "$0"`
 . $CURRENT_DIR/../common/libdeb.sh
 . $CURRENT_DIR/../common/libcomm.sh
 
+echo "Use fastest mirror..."
+sed -i 's/deb/#deb/' /data/data/com.termux/files/usr/etc/apt/sources.list
+echo "deb https://mirrors.tuna.tsinghua.edu.cn/termux stable main" >> /data/data/com.termux/files/usr/etc/apt/sources.list
+pkg up
+
 echo "Recover packages..."
 echo "Working dir is $CURRENT_DIR"
 cd $CURRENT_DIR
