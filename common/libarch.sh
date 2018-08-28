@@ -23,3 +23,13 @@ function add_pacman_mirror {
     sed -i '1s/^/Server = https\:\/\/mirrors\.tuna\.tsinghua\.edu\.cn\/archlinuxarm\/\$arch\/\$repo \n/' /etc/pacman.d/mirrorlist
     head /etc/pacman.d/mirrorlist
 }
+
+function recover_internet {
+    grab_bridge_config
+    sudo mkdir /etc/shadowsocks
+    copy_bridge_config /etc/shadowsocks
+
+    grab_great_list
+    move_action_file /etc/privoxy/
+    add_actions_file /etc/privoxy/config
+}

@@ -38,3 +38,6 @@ $HOME/Apps/bin/aurin toybox
 echo "alias top='toybox top'" >> $HOME/.bash_profile
 echo "alias ps='toybox ps'" >> $HOME/.bash_profile
 echo "alias uptime='toybox uptime'" >> $HOME/.bash_profile
+
+echo "Recover Internet"
+recover_internet
