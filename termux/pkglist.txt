@@ -149,3 +149,4 @@ xvidcore
 xz-utils
 yarn
 zip
+stow
