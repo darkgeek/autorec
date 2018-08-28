@@ -55,3 +55,7 @@ grab_bridge_config
 grab_great_list
 termux_move_action_file $HOME/../usr/etc/privoxy/
 termux_add_actions_file $HOME/../usr/etc/privoxy/config
+
+echo "Fix empty user issue..."
+user=$(whoami)
+sed -i "1s/^/export USER=$user \n/" $HOME/.bash_profile
