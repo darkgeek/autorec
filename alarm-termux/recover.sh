@@ -39,5 +39,8 @@ echo "alias top='toybox top'" >> $HOME/.bash_profile
 echo "alias ps='toybox ps'" >> $HOME/.bash_profile
 echo "alias uptime='toybox uptime'" >> $HOME/.bash_profile
 
+echo "Fix empty user issue..."
+sed -i '1s/^/export USER=root \n/' $HOME/.bash_profile
+
 echo "Recover Internet"
 recover_internet
