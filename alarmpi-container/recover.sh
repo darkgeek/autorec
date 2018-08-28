@@ -8,6 +8,7 @@ SCRIPT_NAME=`basename "$0"`
 
 echo "Recover packages..."
 echo "Working dir is $CURRENT_DIR"
+add_pacman_mirror
 cd $CURRENT_DIR
 recover_packages
 
