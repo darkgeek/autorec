@@ -19,6 +19,7 @@ patch < $CURRENT_DIR/makepkg.patch
 
 echo "Recover packages..."
 echo "Working dir is $CURRENT_DIR"
+add_pacman_mirror
 cd $CURRENT_DIR
 recover_packages
 
