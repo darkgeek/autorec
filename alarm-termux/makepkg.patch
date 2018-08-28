@@ -1,0 +1,29 @@
+--- makepkg	2017-10-11 13:26:31.915399293 +0000
++++ makepkg.after	2017-10-11 16:06:00.175395990 +0000
+@@ -166,8 +166,10 @@
+ }
+ 
+ enter_fakeroot() {
++    export PATH=$HOME/Apps/bin:$PATH
++    echo $PATH
+ 	msg "$(gettext "Entering %s environment...")" "fakeroot"
+-	fakeroot -- $0 -F "${ARGLIST[@]}" || exit $?
++	fakeroot $0 -F "${ARGLIST[@]}" || exit $?
+ }
+ 
+ # Automatically update pkgver variable if a pkgver() function is provided
+@@ -2127,12 +2129,12 @@
+ 	if (( EUID == 0 )); then
+ 		error "$(gettext "Running %s as root is not allowed as it can cause permanent,\n\
+ catastrophic damage to your system.")" "makepkg"
+-		exit 1 # $E_USER_ABORT
++		#exit 1 # $E_USER_ABORT
+ 	fi
+ else
+ 	if [[ -z $FAKEROOTKEY ]]; then
+ 		error "$(gettext "Do not use the %s option. This option is only for use by %s.")" "'-F'" "makepkg"
+-		exit 1 # TODO: error code
++		#exit 1 # TODO: error code
+ 	fi
+ fi
+ 

@@ -1,0 +1,10 @@
+#!/bin/sh
+# 
+# This is a no-op implementation to be used in proot environment
+
+echo $@
+if [[ "$@" == "-v" ]]; then
+    echo no-op fakeroot v1.0
+else
+    eval "$@"
+fi

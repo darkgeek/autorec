@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# This is a no-op implementation used in proot environment
+
+echo $@
+eval "$@"

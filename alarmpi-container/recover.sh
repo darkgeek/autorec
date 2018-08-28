@@ -22,5 +22,5 @@ set_timezone
 set_hostname
 
 echo "Setting important environment variables..."
-echo "export DISPLAY=:0" >> $HOME/.bashrc
-echo "export PULSE_SERVER=/tmp/pulse.socket" >> $HOME/.bashrc
+echo "export DISPLAY=:0" >> $HOME/.bash_profile
+echo "export PULSE_SERVER=/tmp/pulse.socket" >> $HOME/.bash_profile
