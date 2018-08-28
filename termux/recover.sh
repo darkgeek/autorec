@@ -13,6 +13,7 @@ pkg up
 
 echo "Recover packages..."
 echo "Working dir is $CURRENT_DIR"
+mv $HOME/.bashrc $HOME/.bashrc.bk
 cd $CURRENT_DIR
 recover_package_list
 
