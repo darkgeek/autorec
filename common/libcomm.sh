@@ -1,5 +1,7 @@
 #!/bin/sh
 
+GREAT_LIST=$HOME/Shares/gfwlist.action
+
 function drag_dotfiles {
     cd $HOME
     git clone https://github.com/darkgeek/dotfiles
@@ -43,4 +45,34 @@ function set_hostname {
 
     echo $anwser | sudo tee /etc/hostname
     echo "127.0.0.1 $anwser" | sudo tee -a /etc/hosts
+}
+
+function grab_bridge_config {
+    echo "Grabing bridge config file..."
+    echo -n "Tell me the host of this git repo..."
+    read anwser
+
+    mkdir $HOME/Shares
+    cd $HOME/Shares
+    git clone https://$anwser.org/darkgeek/private
+}
+
+function grab_great_list {
+    echo "Grabing great list..."
+    mkdir $HOME/Shares
+    cd $HOME/Shares
+    echo -n "Tell me where can I find that, base url is enough, I'll launch w3m: "
+    read anwser
+
+    w3m $anwser
+}
+
+function add_actions_file {
+    echo "Adding actions file..."
+    echo "actionsfile gfwlist.action" | sudo tee -a $1
+}
+
+function move_action_file {
+    echo "Moving action file..."
+    sudo mv $GREAT_LIST $1
 }

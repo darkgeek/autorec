@@ -6,6 +6,16 @@ SCRIPT_NAME=`basename "$0"`
 . $CURRENT_DIR/../common/libdeb.sh
 . $CURRENT_DIR/../common/libcomm.sh
 
+function termux_add_actions_file {
+    echo "Adding actions file..."
+    echo "actionsfile gfwlist.action" >> $1
+}
+
+function termux_move_action_file {
+    echo "Moving action file..."
+    mv $GREAT_LIST $1
+}
+
 echo "Use fastest mirror..."
 sed -i 's/deb/#deb/' /data/data/com.termux/files/usr/etc/apt/sources.list
 echo "deb https://mirrors.tuna.tsinghua.edu.cn/termux stable main" >> /data/data/com.termux/files/usr/etc/apt/sources.list
@@ -38,3 +48,7 @@ echo -n "Tell me the path: "
 read anwser
 cd $HOME
 http_proxy=$anwser https_proxy=$anwser go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-local
+grab_bridge_config
+grab_great_list
+termux_move_action_file $HOME/../usr/etc/privoxy/
+termux_add_actions_file $HOME/../usr/etc/privoxy/config
