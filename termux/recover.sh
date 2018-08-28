@@ -43,6 +43,9 @@ echo "export PATH=$PATH:$HOME/bin" >> $HOME/.bash_profile
 echo "Recover rc file..."
 cp $CURRENT_DIR/rc $HOME/bin/
 
+echo "You could just start syncthing to init your keepass before continue, press any key to continue"
+read no-op
+
 echo "Recover Internet..."
 echo -n "Tell me the path: "
 read anwser
