@@ -29,7 +29,7 @@ echo "load-module module-native-protocol-unix socket=/tmp/pulse.socket" | sudo t
 echo "/dev/mmcblk0p2  /   f2fs    defaults,noatime        0       0" | sudo tee -a /etc/fstab
 
 echo "Configure user group..."
-sudo usermod -G wheel,audio,video,input justin
+sudo usermod -a -G wheel,audio,video,input justin
 
 echo "Configuring MATE desktop..."
 gsettings set org.mate.media-handling automount false
