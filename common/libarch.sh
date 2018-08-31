@@ -20,7 +20,7 @@ function recover_packages {
 
 function add_pacman_mirror {
     echo "Add fast mirror for pacman..."
-    sed -i '1s/^/Server = https\:\/\/mirrors\.tuna\.tsinghua\.edu\.cn\/archlinuxarm\/\$arch\/\$repo \n/' /etc/pacman.d/mirrorlist
+    sudo sed -i '1s/^/Server = https\:\/\/mirrors\.tuna\.tsinghua\.edu\.cn\/archlinuxarm\/\$arch\/\$repo \n/' /etc/pacman.d/mirrorlist
     head /etc/pacman.d/mirrorlist
 }
 
