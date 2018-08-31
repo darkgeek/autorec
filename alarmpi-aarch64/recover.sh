@@ -31,6 +31,9 @@ echo "/dev/mmcblk0p2  /   f2fs    defaults,noatime        0       0" | sudo tee 
 echo "Configure user group..."
 sudo usermod -G audio,video,input justin
 
+echo "Configuring MATE desktop..."
+gsettings set org.mate.media-handling automount false
+
 echo "Configuring basic system setting..."
 set_locale
 set_timezone
