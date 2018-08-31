@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CURRENT_DIR=`dirname "$0"`
+CURRENT_DIR="$( cd "$(dirname "$0")" ; pwd -P )"
 SCRIPT_NAME=`basename "$0"`
 
 . $CURRENT_DIR/../common/libarch.sh
