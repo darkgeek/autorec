@@ -1,4 +1,5 @@
 alsa-utils
+android-tools
 arc-gtk-theme
 arch-install-scripts
 atril
@@ -15,12 +16,14 @@ caja-sendto
 caja-share
 caja-wallpaper
 caja-xattr-tags
+cgroup_event_listener
 chromium
 clipmenu
 clipnotify
 coreutils
 cower
 cowsay
+cpupower
 crda
 cryptsetup
 device-mapper
@@ -54,6 +57,8 @@ git
 glibc
 gnome-icon-theme
 gnome-themes-extra
+go
+gpio-utils
 grep
 gst-libav
 gst-plugins-bad
@@ -66,6 +71,8 @@ gtk-engine-murrine
 gzip
 haveged
 htop
+hyperv
+iio-utils
 inetutils
 iotop
 iproute2
@@ -74,6 +81,7 @@ jfsutils
 keepassxc
 less
 libtool
+libtraceevent
 licenses
 linux-aarch64
 logrotate
@@ -123,6 +131,7 @@ pacman
 pacman-mirrorlist
 patch
 pciutils
+perf
 perl
 pkgconf
 pluma
@@ -145,8 +154,10 @@ sysfsutils
 systemd-sysvcompat
 tar
 texinfo
+tmon
 tree
 uboot-raspberrypi
+usbip
 usbutils
 util-linux
 vi
