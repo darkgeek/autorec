@@ -7,13 +7,16 @@ function init_services {
     start-stop-daemon -n sshd -S -x sshd
 
     echo start syncthing...
-    syncthing > ~/syncthing.log 2>&1 &
+    syncthing -no-browser > ~/syncthing.log 2>&1 &
 
     echo start shadowsocks-go...
     ~/go/bin/shadowsocks-local -c ~/Shares/private/shadowsocks/config.json > ~/shadowsocks-go.log 2>&1 &
 
     echo start privoxy...
     privoxy --no-daemon ~/../usr/etc/privoxy/config > privoxy.log 2>&1 &
+
+    echo start mpd...
+    mpd --no-daemon --verbose > mpd.log 2>&1 &
 }
 
 function kill_services {
@@ -28,6 +31,9 @@ function kill_services {
 
     echo stop privoxy...
     start-stop-daemon -n privoxy -K
+
+    echo stop mpd...
+    start-stop-daemon -n mpd -K
 }
 
 function show_help {

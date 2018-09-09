@@ -95,6 +95,7 @@ lld
 m4
 make
 man
+mpc
 mpd
 mpv
 ncurses
@@ -127,6 +128,7 @@ redis
 resolv-conf
 sed
 sl
+stow
 strace
 syncthing
 tar
@@ -149,4 +151,3 @@ xvidcore
 xz-utils
 yarn
 zip
-stow

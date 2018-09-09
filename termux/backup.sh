@@ -11,3 +11,4 @@ echo "Working dir is $CURRENT_DIR"
 cd $CURRENT_DIR
 backup_package_list
 cp $HOME/bin/rc .
+cp $HOME/.mpdconf .
