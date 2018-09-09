@@ -14,7 +14,7 @@ echo "x) nothing"
 read CHOICE
 case $CHOICE in
     y)
-        youtube-dl --proxy=http://127.0.0.1:8118 -o '~/storage/movies/%(title)s.%(ext)s' "$url"
+        $HOME/.local/bin/youtube-dl --proxy=http://127.0.0.1:8118 -o '~/storage/movies/%(title)s.%(ext)s' "$url"
         ;;
     t)
         $HOME/.local/bin/you-get -o ~/storage/movies "$url"
@@ -23,7 +23,7 @@ case $CHOICE in
         mpv "$url" --no-video
         ;;
     p)
-        youtube-dl --proxy=http://127.0.0.1:8118 -o - "$url" | mpv -
+        $HOME/.local/bin/youtube-dl --proxy=http://127.0.0.1:8118 -o - "$url" | mpv -
         ;;
     g)
         $HOME/.local/bin/you-get -p "mpv" "$url"
