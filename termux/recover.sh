@@ -40,11 +40,14 @@ echo "alias uptime='toybox uptime'" >> $HOME/.bash_profile
 echo "alias ps='toybox ps'" >> $HOME/.bash_profile
 echo "export PATH=$PATH:$HOME/bin" >> $HOME/.bash_profile
 
-echo "Recover rc file..."
+echo "Recover other config files..."
 cp $CURRENT_DIR/rc $HOME/bin/
 cp $CURRENT_DIR/termux-url-opener $HOME/bin/
 cp $CURRENT_DIR/termux-file-editor $HOME/bin/
 cp $CURRENT_DIR/.mpdconf $HOME/
+mkdir $HOME/Music
+ln -s /sdcard/netease/cloudmusic/Music $HOME/Music/
+ln -s /sdcard/Movies $HOME/Music
 
 echo "You could just start syncthing to init your keepass before continue, press any key to continue"
 read noop
