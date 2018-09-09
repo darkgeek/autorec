@@ -1,0 +1,37 @@
+#!/bin/sh
+# Fork from: https://gist.github.com/LordH3lmchen/dc35e8df3dc41d126683f18fe44ebe17
+
+url=$1
+echo "What should I do with $url"
+echo "y) download video with youtube-dl to movies-folder"
+echo "t) download video with you-get to movies-folder"
+echo "m) play video with mpv online"
+echo "p) play video with youtube-dl and mpv online"
+echo "g) play video with you-get and mpv online"
+echo "w) download with wget to download-folder"
+echo "x) nothing"
+
+read CHOICE
+case $CHOICE in
+    y)
+        youtube-dl --proxy=http://127.0.0.1:8118 -o '~/storage/movies/%(title)s.%(ext)s' "$url"
+        ;;
+    t)
+        $HOME/.local/bin/you-get -o ~/storage/movies "$url"
+        ;;
+    m)
+        mpv "$url" --no-video
+        ;;
+    p)
+        youtube-dl --proxy=http://127.0.0.1:8118 -o - "$url" | mpv -
+        ;;
+    g)
+        $HOME/.local/bin/you-get -p "mpv" "$url"
+        ;;
+    w)
+        wget -c "$url" -P ~/storage/downloads
+        ;;
+    x)
+        echo "bye"
+        ;;
+esac

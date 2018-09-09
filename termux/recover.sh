@@ -42,6 +42,8 @@ echo "export PATH=$PATH:$HOME/bin" >> $HOME/.bash_profile
 
 echo "Recover rc file..."
 cp $CURRENT_DIR/rc $HOME/bin/
+cp $CURRENT_DIR/termux-url-opener $HOME/bin/
+cp $CURRENT_DIR/termux-file-editor $HOME/bin/
 cp $CURRENT_DIR/.mpdconf $HOME/
 
 echo "You could just start syncthing to init your keepass before continue, press any key to continue"

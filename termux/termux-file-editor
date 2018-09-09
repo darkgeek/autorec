@@ -1,0 +1,16 @@
+#!/bin/sh
+
+file=$1
+echo "What should I do with $file"
+echo "m) play it with mpv"
+echo "x) nothing"
+
+read CHOICE
+case $CHOICE in
+    m)
+        mpv -vo null "$file"
+        ;;
+    x)
+        echo "bye"
+        ;;
+esac

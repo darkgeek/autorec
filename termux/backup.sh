@@ -11,4 +11,6 @@ echo "Working dir is $CURRENT_DIR"
 cd $CURRENT_DIR
 backup_package_list
 cp $HOME/bin/rc .
+cp $HOME/bin/termux-file-editor .
+cp $HOME/bin/termux-url-opener .
 cp $HOME/.mpdconf .
