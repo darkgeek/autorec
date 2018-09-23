@@ -15,6 +15,7 @@ pkg_info -mz | tee pkglist.txt
 
 echo "Backing up important config files..."
 doas cp -r /etc/monit.d .
+doas cp /etc/monitrc .
 doas cp /etc/pf.conf .
 
 cp /etc/rc.conf.local .
