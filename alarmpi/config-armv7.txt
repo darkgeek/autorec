@@ -1,0 +1,2 @@
+dtoverlay=pi3-disable-bt
+dtparam=audio=on
