@@ -46,7 +46,6 @@ file
 filesystem
 findutils
 firefox
-firmware-raspberrypi
 flex
 fortune-mod
 gawk
@@ -83,7 +82,6 @@ less
 libtool
 libtraceevent
 licenses
-linux-aarch64
 logrotate
 lvm2
 m4
@@ -140,7 +138,6 @@ procps-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
-raspberrypi-bootloader
 reiserfsprogs
 s-nail
 sed
@@ -156,7 +153,6 @@ tar
 texinfo
 tmon
 tree
-uboot-raspberrypi
 usbip
 usbutils
 util-linux
