@@ -1,3 +1,2 @@
 enable_uart=1
 dtparam=audio=on
-gpu_mem=128
