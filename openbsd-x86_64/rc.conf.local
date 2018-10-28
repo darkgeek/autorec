@@ -2,3 +2,4 @@ apmd_flags=-A
 pkg_scripts=messagebus privoxy syncthing monit 
 privoxy_flags="--user _privoxy --chroot --pidfile /var/privoxy/privoxy.pid /etc/privoxy/config"
 vmd_flags=
+xenodm_flags=

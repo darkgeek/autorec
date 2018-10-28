@@ -1,5 +1,6 @@
 adb--
 adobe-source-code-pro--
+aria2--
 asciidoc--
 atril--
 autoconf--%2.69
@@ -7,6 +8,7 @@ automake--%1.15
 cabextract--
 caja--
 caja-extensions--
+calibre--
 chromium--
 cmake--
 coreutils--
@@ -26,12 +28,15 @@ gawk--
 gimp--
 git--
 gmake--
-gnome-themes-standard--
+gnome-themes-extra--
 go--
 gsed--
 gstreamer-plugins-bad--
 gstreamer-plugins-good--
 gstreamer-plugins-ugly--
+gstreamer1--
+gstreamer1-plugins-bad--
+gstreamer1-plugins-base--
 gstreamer1-plugins-good--
 gstreamer1-plugins-libav--
 gstreamer1-plugins-ugly--
@@ -67,6 +72,7 @@ mpc--
 mpg123--
 mpv--
 msttcorefonts--
+neofetch--
 nload--
 nmap--
 noto-cjk--
@@ -76,6 +82,7 @@ pcre--
 pluma--
 privoxy--
 pstree--
+pure-ftpd--
 pv--
 py-pip--
 py3-pip--
@@ -91,7 +98,10 @@ ssvnc-viewer--
 syncthing--
 tcsh--static
 texlive_base--
+texlive_mktexlsr--
+texlive_texmf-buildset--
 texlive_texmf-full--
+texlive_texmf-minimal--
 tree--
 unrar--
 unzip--iconv
