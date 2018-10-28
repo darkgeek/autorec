@@ -24,5 +24,7 @@ cp /etc/vm.conf .
 cp /etc/doas.conf .
 cp /etc/installurl .
 cp /etc/ntpd.conf .
+cp /etc/mixerctl.conf .
+cp $HOME/.xsession .
 
 doas chown -R justin .
