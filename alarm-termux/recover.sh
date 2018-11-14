@@ -8,7 +8,7 @@ SCRIPT_NAME=`basename "$0"`
 
 echo "Recover faked bins..."
 cp -r bin $HOME/
-echo "export PATH=$HOME/bin:$PATH" >> $HOME/.bash_profile
+echo "export PATH=$HOME/bin:\$PATH" >> $HOME/.bash_profile
 . $HOME/.bash_profile
 echo "Current PATH is $PATH"
 
@@ -19,7 +19,11 @@ patch < $CURRENT_DIR/makepkg.patch
 
 echo "Recover packages..."
 echo "Working dir is $CURRENT_DIR"
-add_pacman_mirror
+
+echo "Firstly, we add a fast mirror for pacman..."
+sed -i '1s/^/Server = https\:\/\/mirrors\.tuna\.tsinghua\.edu\.cn\/archlinuxarm\/\$arch\/\$repo \n/' /etc/pacman.d/mirrorlist
+head /etc/pacman.d/mirrorlist
+
 cd $CURRENT_DIR
 recover_packages
 
