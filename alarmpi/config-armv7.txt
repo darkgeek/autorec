@@ -1,2 +1,6 @@
+# See /boot/overlays/README for all available options
+
+gpu_mem=64
 dtoverlay=pi3-disable-bt
 dtparam=audio=on
+initramfs initramfs-linux.img followkernel
