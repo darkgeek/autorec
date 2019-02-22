@@ -1,0 +1,2 @@
+ntpd_flags=-s
+pkg_scripts=messagebus
