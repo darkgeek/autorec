@@ -26,5 +26,6 @@ cp /etc/ntpd.conf .
 cp /etc/mixerctl.conf .
 cp $HOME/.xsession .
 cp /etc/rc.d/shadowsocks_go .
+cp /etc/login.conf .
 
 doas chown -R justin .

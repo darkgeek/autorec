@@ -11,6 +11,7 @@ git--
 gtar--
 htop--
 keepassxc--browser
+lxqt--
 mpv--
 neofetch--
 nmap--

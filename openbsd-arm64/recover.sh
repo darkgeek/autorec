@@ -44,6 +44,9 @@ doas cp ntpd.conf /etc/
 doas cp mixerctl.conf /etc/
 doas cp shadowsocks_go /etc/rc.d/
 
+doas cp login.conf /etc/
+doas cap_mkdb /etc/login.conf
+
 cp .xsession $HOME/
 
 echo "Configuring basic system setting..."
