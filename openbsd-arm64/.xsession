@@ -1,2 +1,28 @@
 . /home/justin/.profile
-exec ck-launch-session mate-session
+PATH=/usr/X11R6/bin:/usr/local/bin:$PATH
+
+synergyc darkgeek-pterosauria
+# remap the caps lock key to be another ctrl key
+setxkbmap \
+  -model pc105 \
+  -layout us \
+  -variant altgr-intl \
+  -option compose:rctrl \
+  -option ctrl:nocaps
+
+# set extra dirs in fontpath, if any
+if [ -d /usr/local/share/fonts ]; then
+  for i in /usr/local/share/fonts/*; do
+    xset fp+ $i
+  done
+  xset fp rehash
+fi
+
+xidle -timeout 600 &
+
+# background
+xsetroot -solid black
+
+# programs to startup
+xterm &
+fvwm

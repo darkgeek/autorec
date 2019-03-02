@@ -1,2 +1,3 @@
 ntpd_flags=-s
 pkg_scripts=messagebus
+xenodm_flags=
