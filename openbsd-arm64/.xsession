@@ -3,4 +3,5 @@ PATH=/usr/X11R6/bin:/usr/local/bin:$PATH
 
 synergyc darkgeek-pterosauria
 
-exec startlxqt
+#exec startlxqt
+exec startxfce4
