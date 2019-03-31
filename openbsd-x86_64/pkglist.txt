@@ -21,10 +21,14 @@ epiphany--
 fcitx--
 fcitx-gtk3--
 fcitx-qt4--
+fcitx-qt5--
 figlet--
 firefox--
 flock--
+g++--%4.9
+g95--%4.9
 gawk--
+gcc--%4.9
 gimp--
 git--
 gmake--
@@ -43,7 +47,7 @@ gstreamer1-plugins-ugly--
 gtk2-murrine-engine--
 htop--
 intellij--
-jdk--%1.8
+jdk--%11
 keepassxc--browser
 libcares--
 libev--
@@ -66,6 +70,7 @@ mate-terminal--
 mate-themes--
 mate-utils--
 mbedtls--
+midori--
 monit--
 mosh--
 mpc--
@@ -96,9 +101,11 @@ racket-minimal--
 scrot--
 ssvnc-viewer--
 syncthing--
+synergy--
 tcsh--static
 texlive_base--
 texlive_mktexlsr--
+texlive_synctex--
 texlive_texmf-buildset--
 texlive_texmf-full--
 texlive_texmf-minimal--
@@ -109,6 +116,7 @@ vala--
 vim--gtk2-perl-python3-ruby
 w3m--image
 wget--
+xclip--
 xmlto--
 xsel--
 youtube-dl--
