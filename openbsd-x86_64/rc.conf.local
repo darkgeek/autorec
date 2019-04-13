@@ -1,5 +1,6 @@
 apmd_flags=-A
-pkg_scripts=messagebus privoxy syncthing monit shadowsocks_go
+pkg_scripts=messagebus privoxy monit shadowsocks_go syncthing
 privoxy_flags="--user _privoxy --chroot --pidfile /var/privoxy/privoxy.pid /etc/privoxy/config"
+syncthing_user=justin
 vmd_flags=
 xenodm_flags=

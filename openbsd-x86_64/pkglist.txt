@@ -47,6 +47,7 @@ gstreamer1-plugins-ugly--
 gtk2-murrine-engine--
 htop--
 intellij--
+jdk--%1.8
 jdk--%11
 keepassxc--browser
 libcares--
