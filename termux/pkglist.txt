@@ -43,10 +43,6 @@ inetutils
 jq
 ldns
 less
-libandroid-glob
-libandroid-glob-dev
-libandroid-support
-libandroid-support-dev
 libarchive
 libbz2
 libc++
@@ -100,8 +96,6 @@ mpd
 mpv
 ncurses
 ncurses-ui-libs
-ndk-stl
-ndk-sysroot
 neofetch
 net-tools
 netcat
