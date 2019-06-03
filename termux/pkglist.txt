@@ -79,7 +79,6 @@ libsqlite
 libtalloc
 libtool
 libunistring
-libutil
 libuuid
 libvorbis
 libvpx

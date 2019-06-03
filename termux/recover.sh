@@ -16,10 +16,10 @@ function termux_move_action_file {
     mv $GREAT_LIST $1
 }
 
-echo "Use fastest mirror..."
-sed -i 's/deb/#deb/' /data/data/com.termux/files/usr/etc/apt/sources.list
-echo "deb https://mirrors.tuna.tsinghua.edu.cn/termux stable main" >> /data/data/com.termux/files/usr/etc/apt/sources.list
-pkg up
+#echo "Use fastest mirror..."
+#sed -i 's/deb/#deb/' /data/data/com.termux/files/usr/etc/apt/sources.list
+#echo "deb https://mirrors.tuna.tsinghua.edu.cn/termux stable main" >> /data/data/com.termux/files/usr/etc/apt/sources.list
+#pkg up
 
 echo "Recover packages..."
 echo "Working dir is $CURRENT_DIR"
