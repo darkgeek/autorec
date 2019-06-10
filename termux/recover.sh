@@ -50,6 +50,8 @@ echo "Recover other config files..."
 cp $CURRENT_DIR/rc $HOME/bin/
 cp $CURRENT_DIR/termux-url-opener $HOME/bin/
 cp $CURRENT_DIR/termux-file-editor $HOME/bin/
+cp $CURRENT_DIR/bad-apps-detect-wrapper.sh $HOME/bin/
+cp $CURRENT_DIR/bad-apps-detect.sh $HOME/bin/
 cp $CURRENT_DIR/.mpdconf $HOME/
 mkdir $HOME/Music
 ln -s /sdcard/netease/cloudmusic/Music $HOME/Music/

@@ -13,4 +13,6 @@ backup_package_list
 cp $HOME/bin/rc .
 cp $HOME/bin/termux-file-editor .
 cp $HOME/bin/termux-url-opener .
+cp $HOME/bin/bad-apps-detect-wrapper.sh .
+cp $HOME/bin/bad-apps-detect.sh .
 cp $HOME/.mpdconf .
