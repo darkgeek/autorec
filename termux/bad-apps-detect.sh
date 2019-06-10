@@ -14,7 +14,7 @@ function kill-app {
 
 HOME=/data/data/com.termux/files/home
 LOG_FILE="$HOME/bad-apps-state.log"
-BAD_APPS=("com.eg.android.AlipayGphone" "com.autonavi.minimap")
+BAD_APPS=("com.eg.android.AlipayGphone" "com.autonavi.minimap" "com.tencent.mobileqq")
 
 echo "`date` ==> Starting detecting bad apps running states..." >> $LOG_FILE
 
