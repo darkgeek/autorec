@@ -16,6 +16,12 @@ function termux_move_action_file {
     mv $GREAT_LIST $1
 }
 
+function termux_restore_cron {
+    echo "Restore cron file..."
+    cp crontab /data/data/com.termux/files/usr/var/spool/cron/crontabs/$USER
+    crontab -l
+}
+
 #echo "Use fastest mirror..."
 #sed -i 's/deb/#deb/' /data/data/com.termux/files/usr/etc/apt/sources.list
 #echo "deb https://mirrors.tuna.tsinghua.edu.cn/termux stable main" >> /data/data/com.termux/files/usr/etc/apt/sources.list
@@ -65,3 +71,5 @@ termux_add_actions_file $HOME/../usr/etc/privoxy/config
 echo "Fix empty user issue..."
 user=$(whoami)
 sed -i "1s/^/export USER=$user \n/" $HOME/.bash_profile
+
+termux_restore_cron

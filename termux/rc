@@ -17,6 +17,9 @@ function init_services {
 
     echo start mpd...
     mpd --no-daemon --verbose > mpd.log 2>&1 &
+
+    echo start crond...
+    start-stop-daemon -n crond -S -x crond
 }
 
 function kill_services {
@@ -34,6 +37,9 @@ function kill_services {
 
     echo stop mpd...
     start-stop-daemon -n mpd -K
+
+    echo stop crond...
+    start-stop-daemon -n crond -K
 }
 
 function show_help {
