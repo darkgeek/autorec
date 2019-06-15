@@ -1,0 +1,3 @@
+#!/bin/sh
+
+nohup su -c "/data/data/com.termux/files/home/bin/startarch.sh $@" > jail.log &
