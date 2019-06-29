@@ -1,2 +1,4 @@
-mate-tweak
-qemu-user-static
+mininet
+pokerth
+python2-networkx
+qemu-user-static-bin

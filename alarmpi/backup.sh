@@ -15,4 +15,3 @@ echo "Backup important config files..."
 cp /etc/sysctl.d/sysctl.conf .
 cp /boot/config.txt .
 cp /etc/systemd/resolved.conf .
-cp -r /usr/lib/binfmt.d .
