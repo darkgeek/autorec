@@ -9,7 +9,14 @@ function backup_package_list {
 
 function recover_package_list {
     echo "Recover packages..."
-    xargs -0 apt install -y < <(tr \\n \\0 < $PKG_LIST)
+    command -v sudo > /dev/null
+    IS_SUDO_AVAILABLE=$?
+    if [ $IS_SUDO_AVAILABLE -eq 0 ]
+    then
+	xargs -0 sudo apt install -y < <(tr \\n \\0 < $PKG_LIST)
+    else
+	xargs -0 apt install -y < <(tr \\n \\0 < $PKG_LIST)
+    fi
 }
 
 function recover_internet {
