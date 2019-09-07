@@ -10,3 +10,6 @@ echo "Working dir is $CURRENT_DIR"
 
 cd $CURRENT_DIR
 backup_package_list
+
+echo "Copying custom scripts..."
+cp $HOME/Apps/bin/pkgup .
