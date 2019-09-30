@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 function check-if-running-foreground {
-    dumpsys window windows | grep "$1"
+    dumpsys window windows | grep -E 'Window #[0-9]+ Window' | grep "$1"
 }
 
 function check-if-running-background {
@@ -14,9 +14,7 @@ function kill-app {
 
 HOME=/data/data/com.termux/files/home
 LOG_FILE="$HOME/bad-apps-state.log"
-BAD_APPS=("com.eg.android.AlipayGphone" "com.autonavi.minimap" "com.tencent.mobileqq")
-
-echo "`date` ==> Starting detecting bad apps running states..." >> $LOG_FILE
+BAD_APPS=("com.eg.android.AlipayGphone" "com.autonavi.minimap" "com.tencent.mobileqq" "com.netease.cloudmusic")
 
 for app in "${BAD_APPS[@]}"
 do
@@ -36,5 +34,3 @@ do
         kill-app "$app"
     fi
 done
-
-echo "`date` ==> Done." >> $LOG_FILE
