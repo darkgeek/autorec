@@ -1,0 +1,4 @@
+#!/bin/sh
+echo Reflashing u-boot...
+dd if=/usr/local/share/u-boot/pine64-lts/u-boot-sunxi-with-spl.bin of=/dev/sd0c bs=1024 seek=8
+echo done.
