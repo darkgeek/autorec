@@ -1,6 +1,8 @@
 adb
 adwaita-icon-theme
+ansible
 arc-theme
+autossh
 build-essential
 busybox
 calibre
