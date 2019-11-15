@@ -23,6 +23,8 @@ firefox-esr
 fonts-noto-cjk
 fonts-noto-color-emoji
 fortune-mod
+fortunes
+fortunes-zh
 gnome-icon-theme
 gnome-themes-extra
 golang-go
