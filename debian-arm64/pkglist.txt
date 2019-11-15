@@ -56,6 +56,7 @@ strace
 sudo
 syncthing
 systemd-container
+tmux
 vim
 wget
 w3m
