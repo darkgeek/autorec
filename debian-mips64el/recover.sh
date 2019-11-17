@@ -24,6 +24,9 @@ set_locale
 set_timezone
 set_hostname
 
+echo "Adjust locale for Debian..."
+sudo update-locale LC_ALL=en_US.UTF-8
+
 echo "Recover Internet..."
 recover_internet
 sudo mv /etc/shadowsocks/config.json /etc/shadowsocks-libev/
