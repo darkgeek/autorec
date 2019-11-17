@@ -18,8 +18,6 @@ dconf--
 desktop-file-utils--
 dtb--
 e2fsprogs--
-epiphany--
-evince--light
 fcitx--
 fcitx-gtk3--
 fcitx-qt4--
@@ -43,7 +41,6 @@ gnupg--%gnupg2
 gnutls--
 go--
 gpsd--
-graphviz--
 gsettings-desktop-schemas--
 gstreamer--
 gtar--
@@ -74,9 +71,7 @@ libsecret--
 libsoup--
 mate-icon-theme--
 maven--
-midori--
 mininet--
-mpv--
 neofetch--
 nmap--
 node--
@@ -94,6 +89,7 @@ poppler--
 popt--
 portslist--
 privoxy--
+prometheus--
 py3-scipy--
 python--%2.7
 python--%3.6
@@ -113,12 +109,10 @@ tree--
 u-boot-aarch64--
 u-boot-arm--
 unrar--
-unzip--iconv
 vim--no_x11-perl-python3-ruby
 w3m--image
 wget--
 xdg-utils--
-xfce--
 xfce4-terminal--
 xz--
 zip--
