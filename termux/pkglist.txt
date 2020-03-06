@@ -82,7 +82,6 @@ libopus
 libpcap
 libpcreposix
 libpng
-libpulseaudio
 libsndfile
 libsoxr
 libsqlite
@@ -115,7 +114,6 @@ nodejs
 openal-soft
 openssh
 openssl
-openssl-dev
 p7zip
 patch
 pcre

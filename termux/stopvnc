@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+echo Stop vnc in Termux...
+vncserver -kill :1
+
+echo Stop vnc in proot...
+pkill startvnc.sh
