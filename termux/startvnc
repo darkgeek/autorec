@@ -1,12 +1,15 @@
 #!/data/data/com.termux/files/usr/bin/sh
 
-echo "Start vnc in Termux"
-vncserver :1
-
 echo "Clean stale files..."
 rm -rf $HOME/arch/tmp/.X*
 rm -rf $HOME/arch/home/justin/.vnc/localhost\:2.pid
 rm -rf $HOME/arch/tmp/.l2s..tX2-lock0001*
+
+rm -r $HOME/../usr/tmp/.X*
+rm -r $HOME/.vnc/localhost\:1.pid
+
+echo "Start vnc in Termux"
+vncserver :1
 
 echo "Start vnc in proot..."
 startarch c /home/justin/bin/startvnc.sh &
