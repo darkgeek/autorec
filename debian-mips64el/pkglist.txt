@@ -4,6 +4,7 @@ consul
 cowsay
 epiphany
 fcitx
+fcitx-pinyin
 firefox-esr
 fonts-noto-cjk
 fonts-noto-color-emoji
@@ -22,7 +23,6 @@ lightdm-gtk-greeter
 lsb-release
 lsof
 lvm2
-mate-desktop
 netsurf
 nload
 nmap
@@ -40,3 +40,6 @@ unzip
 vim
 w3m
 wget
+curl
+locales
+mate-desktop-environment
