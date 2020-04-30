@@ -1,0 +1,30 @@
+#!/bin/bash
+WORK_DIR_BASE=$HOME/Shares/kernels
+KERN_VER=5.4.35-1
+KERN_FILES=(kernel-$KERN_VER.fc28.lemote.mips64el.rpm kernel-core-$KERN_VER.fc28.lemote.mips64el.rpm kernel-devel-$KERN_VER.fc28.lemote.mips64el.rpm kernel-modules-$KERN_VER.fc28.lemote.mips64el.rpm kernel-modules-extra-$KERN_VER.fc28.lemote.mips64el.rpm)
+
+WORK_DIR=$WORK_DIR_BASE-$KERN_VER
+if [ ! -d $WORK_DIR ]; then
+    echo Create work dir $WORK_DIR...
+    mkdir -p $WORK_DIR && echo Done.
+fi
+
+cd $WORK_DIR
+
+for file in "${KERN_FILES[@]}"
+do
+    wget -c http://mirror.lemote.com:8000/fedora/releases/28/os/Core/Normal/$file
+    sudo alien --scripts $file
+done
+
+echo Install kernel...
+sudo apt install ./*.deb
+
+echo build initramfs...
+update-initramfs -c -k $KERN_VER.fc28.lemote.mips64el
+
+echo move kernels...
+sudo cp /lib/modules/$KERN_VER.fc28.lemote.mips64el/vmlinuz /boot/vmlinuz-$KERN_VER.fc28.lemote.mips64el
+sudo cp /lib/modules/$KERN_VER.fc28.lemote.mips64el/System.map /boot/System.map-$KERN_VER.fc28.lemote.mips64el
+
+echo Now you can edit /boot/efi/EFI/BOOT/grub.cfg to add new kernel entry.
