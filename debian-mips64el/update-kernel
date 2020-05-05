@@ -1,6 +1,6 @@
 #!/bin/bash
 WORK_DIR_BASE=$HOME/Shares/kernels
-KERN_VER=5.4.35-1
+KERN_VER=5.4.38-1
 KERN_FILES=(kernel-$KERN_VER.fc28.lemote.mips64el.rpm kernel-core-$KERN_VER.fc28.lemote.mips64el.rpm kernel-devel-$KERN_VER.fc28.lemote.mips64el.rpm kernel-modules-$KERN_VER.fc28.lemote.mips64el.rpm kernel-modules-extra-$KERN_VER.fc28.lemote.mips64el.rpm)
 
 WORK_DIR=$WORK_DIR_BASE-$KERN_VER
@@ -21,7 +21,7 @@ echo Install kernel...
 sudo apt install ./*.deb
 
 echo build initramfs...
-update-initramfs -c -k $KERN_VER.fc28.lemote.mips64el
+sudo update-initramfs -c -k $KERN_VER.fc28.lemote.mips64el
 
 echo move kernels...
 sudo cp /lib/modules/$KERN_VER.fc28.lemote.mips64el/vmlinuz /boot/vmlinuz-$KERN_VER.fc28.lemote.mips64el
