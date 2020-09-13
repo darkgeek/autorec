@@ -14,7 +14,7 @@ function kill-app {
 
 HOME=/data/data/com.termux/files/home
 LOG_FILE="$HOME/bad-apps-state.log"
-BAD_APPS=("com.eg.android.AlipayGphone" "com.autonavi.minimap" "com.tencent.mobileqq" "com.netease.cloudmusic")
+BAD_APPS=("com.eg.android.AlipayGphone" "com.autonavi.minimap" "com.tencent.mobileqq" "com.netease.cloudmusic" "com.taobao.taobao")
 
 for app in "${BAD_APPS[@]}"
 do
@@ -22,7 +22,7 @@ do
     is_running_foreground=$?
 
     if [ $is_running_foreground -eq 0 ];then
-        echo "$app is running foreground, keep it there." >> $LOG_FILE
+        echo `date "+%F %R"` "$app is running foreground, keep it there." >> $LOG_FILE
         continue
     fi
 
@@ -30,7 +30,7 @@ do
     is_running_background=$?
 
     if [ $is_running_background -eq 0 ];then
-        echo "$app is running in background while no visible activity, kill it." >> $LOG_FILE
+        echo `date "+%F %R"` "$app is running in background while no visible activity, kill it." >> $LOG_FILE
         kill-app "$app"
     fi
 done
