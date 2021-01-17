@@ -10,7 +10,6 @@ function init_services {
     syncthing -no-browser > ~/syncthing.log 2>&1 &
 
     echo start shadowsocks...
-#    ~/go/bin/shadowsocks-local -c ~/Shares/private/shadowsocks/config.json > ~/shadowsocks-go.log 2>&1 &
     startarch c ss-local -c $HOME/Shares/private/shadowsocks/config.json > ~/shadowsocks-libev.log 2>&1 &
 
     echo start privoxy...
@@ -21,6 +20,9 @@ function init_services {
 
     echo start bad-app-detect job...
     termux-job-scheduler -s ~/bin/bad-apps-detect-wrapper.sh --period-ms 900000 --job-id 1
+
+    echo start run-app-in-container service...
+    startarch -c 'su justin -c "run-app-in-container-server.fish 9900"' > run-app-in-container-service.log 2>&1 &
 }
 
 function kill_services {
@@ -42,6 +44,9 @@ function kill_services {
 
     echo stop all jobs...
     termux-job-scheduler --cancel-all
+
+    echo stop run-app-in-container service...
+    pkill -f -9 run-app-in-container-server.fish
 }
 
 function show_help {
