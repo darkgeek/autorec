@@ -4,7 +4,7 @@ consul
 cowsay
 epiphany
 fcitx
-fcitx-pinyin
+fcitx-libpinyin
 firefox-esr
 fonts-noto-cjk
 fonts-noto-color-emoji
