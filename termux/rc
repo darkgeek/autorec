@@ -4,13 +4,13 @@ SCRIPT_NAME=`basename "$0"`
 
 function init_services {
     echo start sshd...
-    start-stop-daemon -n sshd -S -x sshd
+    busybox start-stop-daemon -n sshd -S -x sshd
 
     echo start syncthing...
     syncthing -no-browser > ~/syncthing.log 2>&1 &
 
-    echo start shadowsocks-go...
-    ~/go/bin/shadowsocks-local -c ~/Shares/private/shadowsocks/config.json > ~/shadowsocks-go.log 2>&1 &
+    echo start shadowsocks...
+    startarch c ss-local -c $HOME/Shares/private/shadowsocks/config.json > ~/shadowsocks-libev.log 2>&1 &
 
     echo start privoxy...
     privoxy --no-daemon ~/../usr/etc/privoxy/config > privoxy.log 2>&1 &
@@ -18,8 +18,11 @@ function init_services {
     echo start mpd...
     mpd --no-daemon --verbose > mpd.log 2>&1 &
 
-    echo start crond...
-    start-stop-daemon -n crond -S -x crond
+    echo start bad-app-detect job...
+    termux-job-scheduler -s ~/bin/bad-apps-detect-wrapper.sh --period-ms 900000 --job-id 1
+
+    echo start run-app-in-container service...
+    startarch -c 'su justin -c "run-app-in-container-server.fish 9900"' > run-app-in-container-service.log 2>&1 &
 }
 
 function kill_services {
@@ -29,8 +32,9 @@ function kill_services {
     echo stop syncthing...
     start-stop-daemon -n syncthing -K
 
-    echo stop shadowsocks-go...
-    pkill -f -9 shadowsocks-local
+    echo stop shadowsocks...
+    #pkill -f -9 shadowsocks-local
+    pkill -f -9 ss-local
 
     echo stop privoxy...
     start-stop-daemon -n privoxy -K
@@ -38,8 +42,11 @@ function kill_services {
     echo stop mpd...
     start-stop-daemon -n mpd -K
 
-    echo stop crond...
-    start-stop-daemon -n crond -K
+    echo stop all jobs...
+    termux-job-scheduler --cancel-all
+
+    echo stop run-app-in-container service...
+    pkill -f -9 run-app-in-container-server.fish
 }
 
 function show_help {
