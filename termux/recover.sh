@@ -16,12 +16,6 @@ function termux_move_action_file {
     mv $GREAT_LIST $1
 }
 
-function termux_restore_cron {
-    echo "Restore cron file..."
-    cp crontab /data/data/com.termux/files/usr/var/spool/cron/crontabs/$USER
-    crontab -l
-}
-
 #echo "Use fastest mirror..."
 #sed -i 's/deb/#deb/' /data/data/com.termux/files/usr/etc/apt/sources.list
 #echo "deb https://mirrors.tuna.tsinghua.edu.cn/termux stable main" >> /data/data/com.termux/files/usr/etc/apt/sources.list
@@ -39,7 +33,7 @@ stow_common_dotfiles
 
 echo "Grabing toybox..."
 mkdir $HOME/bin
-wget -c http://landley.net/toybox/bin/toybox-armv7l -O $HOME/bin/toybox
+wget -c http://landley.net/toybox/bin/toybox-aarch64 -O $HOME/bin/toybox
 chmod +x $HOME/bin/toybox
 echo "alias top='toybox top'" >> $HOME/.bash_profile
 echo "alias uptime='toybox uptime'" >> $HOME/.bash_profile
@@ -61,17 +55,7 @@ echo "You could just start syncthing to init your keepass before continue, press
 read noop
 
 echo "Recover Internet..."
-echo -n "Tell me the path: "
-read anwser
-cd $HOME
-http_proxy=$anwser https_proxy=$anwser go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-local
 grab_bridge_config
 grab_great_list
 termux_move_action_file $HOME/../usr/etc/privoxy/
 termux_add_actions_file $HOME/../usr/etc/privoxy/config
-
-echo "Fix empty user issue..."
-user=$(whoami)
-sed -i "1s/^/export USER=$user \n/" $HOME/.bash_profile
-
-termux_restore_cron

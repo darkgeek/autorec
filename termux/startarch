@@ -1,0 +1,10 @@
+#!/data/data/com.termux/files/usr/bin/fish
+
+set -l BASE_CMD proot-distro login archlinux --shared-tmp --bind /data/data/com.termux/files/home:/home/justin/termux_home --user justin
+
+if test -z "$argv"
+    echo Start shell by default:
+    $BASE_CMD
+else
+    $BASE_CMD -- $argv
+end
