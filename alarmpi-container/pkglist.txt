@@ -31,7 +31,6 @@ w3m
 qutebrowser
 fish
 openbsd-netcat
-python-neovim
 man-db
 ctags
 python-pynvim
