@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/fish
 
-set -l BASE_CMD proot-distro login archlinux --shared-tmp --bind /data/data/com.termux/files/home:/home/justin/termux_home --user justin
+set -l BASE_CMD proot-distro login archlinux --shared-tmp --bind /data/data/com.termux/files/home:/home/justin/termux_home --bind $HOME/fakeproc/sys/fs/inotify/max_user_watches:/proc/sys/fs/inotify/max_user_watches --user justin
 
 if test -z "$argv"
     echo Start shell by default:
