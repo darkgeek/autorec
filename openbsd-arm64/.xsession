@@ -3,6 +3,7 @@ export LC_ALL="en_US.UTF-8"
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
+export PATH=$PATH:$HOME/Apps/bin:$HOME/bin:/usr/local/jdk-11/bin/
 
 #exec startxfce4 --with-ck-launch 
 
