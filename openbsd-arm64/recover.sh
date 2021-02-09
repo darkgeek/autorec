@@ -25,9 +25,12 @@ echo "Recover dotfiles..."
 drag_dotfiles
 stow_dotfile ksh
 stow_dotfile bash
+stow_dotfile fish
+stow_dotfile qutebrowser
 stow_dotfile git
 stow_dotfile keepassxc
 stow_dotfile vim
+stow_dotfile neovim
 stow_dotfile fcitx
 
 echo "Recover important configs..."
@@ -42,7 +45,6 @@ doas cp doas.conf /etc/
 doas cp installurl /etc/
 doas cp ntpd.conf /etc/
 doas cp mixerctl.conf /etc/
-doas cp shadowsocks_go /etc/rc.d/
 
 doas cp login.conf /etc/
 doas cap_mkdb /etc/login.conf

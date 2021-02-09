@@ -1,7 +1,12 @@
-. /home/justin/.profile
-PATH=/usr/X11R6/bin:/usr/local/bin:$PATH
+export LC_CTYPE="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
 
-synergyc darkgeek-pterosauria
+#exec startxfce4 --with-ck-launch 
 
-#exec startlxqt
-exec startxfce4
+if [ -x /usr/local/bin/dbus-launch -a -z "${DBUS_SESSION_BUS_ADDRESS}" ]; then
+	eval `dbus-launch --sh-syntax --exit-with-x11`
+fi
+/usr/local/bin/startlxqt
