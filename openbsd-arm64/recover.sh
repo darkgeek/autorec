@@ -33,6 +33,13 @@ stow_dotfile vim
 stow_dotfile neovim
 stow_dotfile fcitx
 
+echo "Recover Internet..."
+grab_bridge_config
+
+grab_great_list
+move_action_file_openbsd /etc/privoxy/
+add_actions_file_openbsd /etc/privoxy/config
+
 echo "Recover important configs..."
 cd $CURRENT_DIR
 doas cp -r /etc/monit.d .
@@ -58,10 +65,3 @@ echo 'export LC_ALL="en_US.UTF-8"' >> /home/justin/.profile
 
 echo "Setting kshrc..."
 echo 'export ENV=$HOME/.kshrc' >> /home/justin/.profile
-
-echo "Recover Internet..."
-grab_bridge_config
-
-grab_great_list
-move_action_file_openbsd /etc/privoxy/
-add_actions_file_openbsd /etc/privoxy/config

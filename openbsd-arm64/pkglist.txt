@@ -79,3 +79,6 @@ terraform
 vault
 netsurf
 octave
+fzf
+stow
+rust
