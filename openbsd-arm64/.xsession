@@ -6,6 +6,8 @@ export XMODIFIERS=@im=fcitx
 export AUDIODEVICE="snd@172.24.2.104/0"
 export PATH=$PATH:$HOME/Apps/bin:$HOME/bin:/usr/local/jdk-11/bin/
 
+ulimit -c 0
+
 #exec startxfce4 --with-ck-launch 
 
 if [ -x /usr/local/bin/dbus-launch -a -z "${DBUS_SESSION_BUS_ADDRESS}" ]; then
