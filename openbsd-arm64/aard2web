@@ -1,0 +1,12 @@
+#!/bin/ksh
+#
+# Aard2 web server
+
+daemon="/usr/local/jdk-11/bin/java -jar /home/justin/Apps/aard2-web/aard2-web-0.7.jar /home/justin/Documents/aarddict/* &"
+daemon_user="justin"
+
+. /etc/rc.d/rc.subr
+
+rc_reload=NO
+
+rc_cmd $1
