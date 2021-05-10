@@ -1,0 +1,5 @@
+root = /home/justin/Sync
+root = ssh://justin@172.24.1.1//home/justin/Sync
+
+ignore = Name .*
+batch = true

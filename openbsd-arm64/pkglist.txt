@@ -84,3 +84,5 @@ octave
 fzf
 stow
 rust
+universal-ctags--iconv
+unison

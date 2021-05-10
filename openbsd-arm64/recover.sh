@@ -57,6 +57,8 @@ doas cp login.conf /etc/
 doas cap_mkdb /etc/login.conf
 
 cp .xsession $HOME/
+mkdir $HOME/.unison
+cp syncthing.sync.prf $HOME/.unison
 
 echo "Configuring basic system setting..."
 echo "Setting Locale..."
