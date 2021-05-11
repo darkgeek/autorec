@@ -5,11 +5,11 @@ function check-if-running-foreground {
 }
 
 function check-if-running-background {
-    ps -A | grep "$1"
+    ps auxww | grep "$1" | grep -v grep
 }
 
 function kill-app {
-    am force-stop "$1"
+    /system/bin/am force-stop "$1"
 }
 
 HOME=/data/data/com.termux/files/home
