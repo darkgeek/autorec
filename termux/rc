@@ -47,6 +47,7 @@ function kill_services {
 
     echo stop run-app-in-container service...
     pkill -f -9 run-app-in-container-server.fish
+    pkill -f -9 nc
 }
 
 function show_help {
