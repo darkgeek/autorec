@@ -17,7 +17,7 @@
 ## Start Monit in the background (run as a daemon):
 #
 set daemon  30              # check services at 30 seconds intervals
-   with start delay 30    # optional: delay the first check by 4-minutes (by
+#   with start delay 240    # optional: delay the first check by 4-minutes (by
 #                           # default Monit check immediately after Monit start)
 #
 #
@@ -92,7 +92,7 @@ set statefile /var/monit/state
 #     slots 100           # optionally limit the queue size
 #
 #
-## Send status and events to M/Monit (for more informations about M/Monit
+## Send status and events to M/Monit (for more information about M/Monit
 ## see https://mmonit.com/). By default Monit registers credentials with
 ## M/Monit so M/Monit can smoothly communicate back to Monit and you don't
 ## have to register Monit credentials manually in M/Monit. It is possible to
@@ -153,7 +153,7 @@ set statefile /var/monit/state
 ## enable SSL for the HTTP interface.
 #
 set httpd port 2812 and
-    use address localhost  # only accept connection from localhost
+    use address localhost  # only accept connection from localhost (drop if you use M/Monit)
     allow localhost        # allow localhost to connect to the server and
     allow admin:monit      # require user 'admin' with password 'monit'
     #with ssl {            # enable SSL/TLS and set path to server certificate
@@ -169,8 +169,8 @@ set httpd port 2812 and
 ## performed should a test fail.
 #
 #  check system $HOST
-#    if loadavg (1min) > 4 then alert
-#    if loadavg (5min) > 2 then alert
+#    if loadavg (1min) per core > 2 for 5 cycles then alert
+#    if loadavg (5min) per core > 1.5 for 10 cycles then alert
 #    if cpu usage > 95% for 10 cycles then alert
 #    if memory usage > 75% then alert
 #    if swap usage > 25% then alert
@@ -209,7 +209,6 @@ set httpd port 2812 and
 #    if cpu > 80% for 5 cycles then restart
 #    if totalmem > 200.0 MB for 5 cycles then restart
 #    if children > 250 then restart
-#    if loadavg(5min) greater than 10 for 8 cycles then stop
 #    if disk read > 500 kb/s for 10 cycles then alert
 #    if disk write > 500 kb/s for 10 cycles then alert
 #    if failed host www.tildeslash.com port 80 protocol http and request "/somefile.html" then restart
@@ -302,4 +301,3 @@ set httpd port 2812 and
 #
 #  include /etc/monit.d/*
 #
-  include /etc/monit.d/*

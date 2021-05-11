@@ -13,7 +13,7 @@ epiphany--
 fcitx--
 fcitx-gtk3--
 fcitx-qt5--
-firefox--
+firefox-esr--
 flock--
 g++--%4.9
 gimp--
@@ -26,6 +26,8 @@ intellij--
 jdk--%11
 keepassxc--browser
 marco--
+mate--
+mate-extras--
 mate-calc--
 mate-control-center--
 mate-desktop--
@@ -79,3 +81,8 @@ terraform
 vault
 netsurf
 octave
+fzf
+stow
+rust
+universal-ctags--iconv
+unison
