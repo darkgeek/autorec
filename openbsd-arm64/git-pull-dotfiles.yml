@@ -1,0 +1,13 @@
+---
+ - name: Pull dotfiles by git
+   hosts: hosts
+   become: yes
+   become_user: justin
+   tasks:
+       - name: git pull dotfiles
+         register: updatesys
+         shell: cd /home/justin/dotfiles && git pull
+
+       - name: Display the last line of the previous task to check the stats
+         debug:
+           msg: "{{updatesys.stdout_lines}}"
