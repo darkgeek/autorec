@@ -77,3 +77,5 @@ busybox
 fish
 neovim
 git
+xorg-xhost
+xfce4-terminal
