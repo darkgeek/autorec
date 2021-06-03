@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo apt update && sudo apt upgrade && aptitude search -t $(lsb_release -sc)-backports -F '%p %v -> %V' '~U ~Abackports'

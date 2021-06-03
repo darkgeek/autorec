@@ -1,0 +1,8 @@
+[Files]
+BindReadOnly=/tmp/.X11-unix
+BindReadOnly=/home/justin/.Xauthority
+Bind=/home/justin/Downloads
+Bind=/tmp/pulse.socket
+
+[Network]
+VirtualEthernet=no
