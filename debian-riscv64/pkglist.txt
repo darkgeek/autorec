@@ -42,3 +42,5 @@ vim
 wget
 w3m
 youtube-dl
+python3-dev
+universal-ctags
