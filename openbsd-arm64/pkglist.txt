@@ -65,7 +65,6 @@ scrot--
 tcsh--static
 tree--
 unrar--
-unzip--iconv
 w3m--image
 wget--
 xsel--

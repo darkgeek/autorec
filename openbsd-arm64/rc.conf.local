@@ -1,3 +1,4 @@
+apmd_flags="-A"
 ntpd_flags=
-pkg_scripts=messagebus
+pkg_scripts=messagebus privoxy
 xenodm_flags=

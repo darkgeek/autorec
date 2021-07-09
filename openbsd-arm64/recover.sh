@@ -56,6 +56,10 @@ doas cp mixerctl.conf /etc/
 doas cp login.conf /etc/
 doas cap_mkdb /etc/login.conf
 
+echo "Add to staff..."
+doas usermod -L staff justin
+doas usermod -G staff justin
+
 cp .xsession $HOME/
 mkdir $HOME/.unison
 cp syncthing.sync.prf $HOME/.unison
