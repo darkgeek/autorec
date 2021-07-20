@@ -35,3 +35,4 @@ keepassxc
 zram-init
 sndio
 py3-pynvim
+telegram-desktop
