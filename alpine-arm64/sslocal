@@ -1,0 +1,14 @@
+#!/sbin/openrc-run
+
+name=$RC_SVCNAME
+command="/home/user/.cargo/bin/sslocal"
+command_args="${SSLOCAL_ARGS}"
+command_user="${SSLOCAL_USER:-root}"
+pidfile=/run/${RC_SVCNAME}.pid
+command_background=yes
+
+depend() {
+        use logger dns
+        need net
+        after firewall
+}
