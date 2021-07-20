@@ -27,3 +27,10 @@ go
 procps
 syncthing
 ctags
+python3-dev
+font-noto-cjk
+font-noto-cjk-extra
+gnome-passwordsafe
+keepassxc
+zram-init
+sndio
