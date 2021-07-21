@@ -34,3 +34,5 @@ echo "export QT_SCALE_FACTOR=0.7" | sudo tee -a /etc/environment
 
 echo "Recover Internet..."
 recover_internet
+
+echo "Don't forget zram-init config and other services."
