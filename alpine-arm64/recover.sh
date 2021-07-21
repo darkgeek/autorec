@@ -27,3 +27,10 @@ sudo usermod -a -G audio,shadow justin
 set_locale
 set_timezone
 set_hostname
+
+echo "Add important variables to /etc/environment"
+echo "export QT_AUTO_SCREEN_SCALE_FACTOR=1" | sudo tee -a /etc/environment
+echo "export QT_SCALE_FACTOR=0.7" | sudo tee -a /etc/environment
+
+echo "Recover Internet..."
+recover_internet
