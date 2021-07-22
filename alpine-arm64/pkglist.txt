@@ -41,3 +41,4 @@ crust
 corepdf
 mesa-demos
 dbus-x11
+gedit
