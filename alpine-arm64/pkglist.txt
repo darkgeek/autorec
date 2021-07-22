@@ -38,7 +38,7 @@ py3-pynvim
 telegram-desktop
 rsync
 crust
-corepdf
 mesa-demos
 dbus-x11
 gedit
+xpdf
