@@ -42,3 +42,4 @@ mesa-demos
 dbus-x11
 gedit
 xpdf
+gettext
