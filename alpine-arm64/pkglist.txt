@@ -43,3 +43,4 @@ dbus-x11
 gedit
 xpdf
 gettext
+flatpak
