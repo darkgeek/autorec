@@ -40,7 +40,7 @@ rsync
 crust
 mesa-demos
 dbus-x11
-gedit
+corepad
 xpdf
 gettext
 flatpak
