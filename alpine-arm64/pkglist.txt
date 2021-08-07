@@ -44,3 +44,7 @@ gettext
 flatpak
 gedit
 evince
+libx11-dev
+libxft-dev
+libxtst-dev
+libxinerama-dev
