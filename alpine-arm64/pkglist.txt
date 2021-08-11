@@ -48,3 +48,4 @@ libx11-dev
 libxft-dev
 libxtst-dev
 libxinerama-dev
+stow
