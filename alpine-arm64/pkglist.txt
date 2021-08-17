@@ -50,3 +50,4 @@ libxtst-dev
 libxinerama-dev
 stow
 libc6-compat
+gcompat
