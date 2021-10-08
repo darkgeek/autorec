@@ -3,7 +3,7 @@ export LC_ALL="en_US.UTF-8"
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
-export AUDIODEVICE="snd@172.24.2.104/0"
+export AUDIODEVICE="snd@darkgeek-alpine-tiangong/0"
 export PATH=$PATH:$HOME/Apps/bin:$HOME/bin:/usr/local/jdk-11/bin/
 
 ulimit -c 0
