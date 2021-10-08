@@ -1,0 +1,6 @@
+INFO  2021-07-19T22:50:54.186 4332  patch_terminfo_bugs:1608: Disabling smglr with TERM=xterm for non-xterm.
+INFO  2021-07-19T22:50:54.390 4332  main:578: starting main loop
+INFO  2021-07-19T22:51:39.605 4332  mch_exit:99: Nvim exit: 0
+INFO  2021-07-19T23:16:00.058 5854  patch_terminfo_bugs:1608: Disabling smglr with TERM=xterm for non-xterm.
+INFO  2021-07-19T23:16:00.218 5854  main:578: starting main loop
+INFO  2021-07-19T23:16:20.978 5854  mch_exit:99: Nvim exit: 0
