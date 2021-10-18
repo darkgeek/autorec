@@ -1,5 +1,5 @@
-root = /home/justin/Sync
-root = ssh://justin@192.168.21.1//home/justin/Sync
-
-ignore = Name .*
+# Unison preferences
 batch = true
+ignore = Name .*
+root = /home/justin/Sync
+root = ssh://justin@darkgeek-armbian-isfahan//home/justin/Sync

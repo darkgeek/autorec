@@ -2,12 +2,13 @@
 #
 # $OpenBSD: ntpd,v 1.4 2018/01/11 19:52:12 rpe Exp $
 
-daemon="/home/justin/.cargo/bin/sslocal"
-daemon_flags="-d --config /home/justin/Shares/private/shadowsocks/config.json"
+daemon="/home/justin/Apps/shadowsocks-libev/bin/ss-local"
+daemon_flags="-c /home/justin/Shares/private/shadowsocks/config.json"
 daemon_user="justin"
 
 . /etc/rc.d/rc.subr
 
 rc_reload=YES
+rc_bg=YES
 
 rc_cmd $1
