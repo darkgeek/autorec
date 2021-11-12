@@ -1,0 +1,13 @@
+[Unit]
+Description=Run chroot container
+
+[Service]
+ExecStartPre=mount --bind /home/justin/Shares/jails/alpinelinux/ /home/justin/Shares/jails/alpinelinux/
+ExecStart=/usr/bin/arch-chroot /home/justin/Shares/jails/alpinelinux /home/justin/Apps/bin/entrypoint.sh
+ExecStop=pkill -9 run-app-in-container-server.fish
+ExecStopPost=umount /home/justin/Shares/jails/alpinelinux/
+Restart=no
+
+[Install]
+WantedBy=default.target
+
