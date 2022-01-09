@@ -115,3 +115,8 @@
 >=dev-python/olefile-0.46-r1 ~*
 
 >=xfce-extra/xfce4-clipman-plugin-1.6.2 ~*
+
+>=x11-wm/enlightenment-0.25.1 ~*
+>=dev-libs/efl-1.26.1-r1 ~*
+
+>=x11-misc/stalonetray-0.8.4 **
