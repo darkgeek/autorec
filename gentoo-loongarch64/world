@@ -38,10 +38,11 @@ sys-process/htop
 sys-process/iotop
 www-client/netsurf
 x11-apps/mesa-progs
-x11-base/xorg-server::darkgeek
+x11-base/xorg-server
 x11-misc/menumaker
 x11-misc/obconf
 x11-misc/tint2
 x11-terms/xfce4-terminal
 x11-wm/openbox
 x11-wm/xpra
+xfce-extra/xfce4-clipman-plugin

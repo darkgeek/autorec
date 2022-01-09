@@ -113,3 +113,5 @@
 >=dev-python/pkgconfig-1.5.5 ~*
 >=dev-python/pyproject2setuppy-22 ~*
 >=dev-python/olefile-0.46-r1 ~*
+
+>=xfce-extra/xfce4-clipman-plugin-1.6.2 ~*
