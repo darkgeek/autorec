@@ -1,6 +1,7 @@
 app-admin/stow
 app-admin/sudo
 app-arch/p7zip
+app-editors/ecrire
 app-editors/vim
 app-eselect/eselect-repository
 app-misc/neofetch

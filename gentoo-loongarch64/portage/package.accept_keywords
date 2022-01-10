@@ -120,3 +120,5 @@
 >=dev-libs/efl-1.26.1-r1 ~*
 
 >=x11-misc/stalonetray-0.8.4 **
+
+>=app-editors/ecrire-0.2.0-r1 **
