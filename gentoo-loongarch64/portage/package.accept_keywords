@@ -122,3 +122,6 @@
 >=x11-misc/stalonetray-0.8.4 **
 
 >=app-editors/ecrire-0.2.0-r1 **
+
+>=media-libs/speexdsp-1.2.0 **
+>=dev-libs/libatomic_ops-7.6.12 **

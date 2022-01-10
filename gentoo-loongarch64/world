@@ -18,6 +18,7 @@ media-fonts/noto-cjk
 media-fonts/noto-emoji
 media-gfx/feh
 media-sound/alsa-utils
+media-sound/pulseaudio
 net-analyzer/httping
 net-analyzer/nload
 net-misc/aria2
