@@ -27,6 +27,7 @@ net-proxy/privoxy
 net-proxy/shadowsocks-libev
 sys-apps/busybox
 sys-apps/man-db
+sys-apps/pciutils
 sys-apps/systemd
 sys-boot/loongarch-acpi-tables-fix
 sys-devel/gcc
