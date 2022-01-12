@@ -21,6 +21,7 @@ media-sound/alsa-utils
 media-sound/pulseaudio
 net-analyzer/httping
 net-analyzer/nload
+net-analyzer/traceroute
 net-misc/aria2
 net-misc/autossh
 net-misc/openssh
