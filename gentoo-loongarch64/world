@@ -24,6 +24,7 @@ net-analyzer/nload
 net-misc/aria2
 net-misc/autossh
 net-misc/openssh
+net-misc/telnet-bsd
 net-misc/tigervnc
 net-proxy/privoxy
 net-proxy/shadowsocks-libev
