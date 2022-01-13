@@ -1,9 +1,13 @@
 app-admin/stow
 app-admin/sudo
 app-arch/p7zip
-app-editors/ecrire
+app-editors/pluma
 app-editors/vim
 app-eselect/eselect-repository
+app-i18n/fcitx
+app-i18n/fcitx-cloudpinyin
+app-i18n/fcitx-configtool
+app-i18n/fcitx-libpinyin
 app-misc/neofetch
 app-misc/screenfetch
 app-misc/tmux

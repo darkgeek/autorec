@@ -127,3 +127,11 @@
 >=dev-libs/libatomic_ops-7.6.12 **
 
 >=net-misc/telnet-bsd-1.2-r2 **
+
+>=app-i18n/fcitx-cloudpinyin-0.3.6 **
+>=app-i18n/fcitx-configtool-0.4.10 **
+>=app-i18n/fcitx-qt5-1.2.5 **
+>=app-i18n/fcitx-libpinyin-0.5.3 **
+>=app-i18n/libpinyin-2.3.0 **
+>=sys-libs/db-6.0.35-r4 **
+>=app-text/enchant-2.3.2 **
