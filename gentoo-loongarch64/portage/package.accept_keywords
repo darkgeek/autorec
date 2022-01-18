@@ -71,7 +71,7 @@
 >=x11-libs/motif-2.3.8-r2 ~*
 >=dev-util/byacc-20211224 ~*
 
->=app-editors/neovim-0.6.1 ~*
+>=app-editors/neovim-0.5.1 ~*
 >=dev-lua/luv-1.36.0.0 ~*
 >=dev-lua/lpeg-1.0.2-r101 ~*
 >=dev-lua/mpack-1.0.9 ~*
@@ -137,3 +137,7 @@
 >=app-text/enchant-2.3.2 **
 
 >=net-dns/bind-tools-9.16.22 **
+
+>=media-video/mpv-0.34.0 **
+>=media-libs/libass-0.15.2 **
+>=media-libs/dav1d-0.9.2 **

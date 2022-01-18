@@ -23,6 +23,7 @@ media-fonts/noto-emoji
 media-gfx/feh
 media-sound/alsa-utils
 media-sound/pulseaudio
+media-video/mpv
 net-analyzer/httping
 net-analyzer/nload
 net-analyzer/traceroute
