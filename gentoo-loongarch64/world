@@ -11,6 +11,8 @@ app-i18n/fcitx-libpinyin
 app-misc/neofetch
 app-misc/screenfetch
 app-misc/tmux
+app-office/abiword
+app-office/gnumeric
 app-portage/eix
 app-shells/fish
 app-text/tree

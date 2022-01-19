@@ -144,3 +144,10 @@
 
 >=dev-python/installer-0.4.0_p20220115 **
 >=dev-python/wheel-0.37.0 **
+
+>=app-office/abiword-3.0.5 **
+>=app-text/wv-1.2.9-r2 **
+>=gnome-extra/libgsf-1.14.48 **
+>=x11-libs/goffice-0.10.50 **
+
+>=app-office/gnumeric-1.12.50 **
