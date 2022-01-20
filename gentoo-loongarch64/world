@@ -16,6 +16,7 @@ app-office/gnumeric
 app-portage/eix
 app-shells/fish
 app-text/tree
+dev-lang/R
 dev-lang/lua
 dev-libs/elfutils
 dev-libs/glib
