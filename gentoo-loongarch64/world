@@ -19,6 +19,7 @@ app-shells/fish
 app-text/tree
 dev-lang/R
 dev-lang/lua
+dev-lang/quickjs
 dev-libs/elfutils
 dev-libs/glib
 dev-python/ipython
