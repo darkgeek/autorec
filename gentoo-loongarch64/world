@@ -2,6 +2,7 @@ app-admin/stow
 app-admin/sudo
 app-arch/p7zip
 app-arch/unrar
+app-crypt/pinentry
 app-editors/pluma
 app-editors/vim
 app-eselect/eselect-repository
@@ -26,6 +27,7 @@ dev-libs/glib
 dev-python/ipython
 dev-python/matplotlib
 dev-python/pandas
+dev-python/pip
 dev-python/scipy
 dev-python/sympy
 dev-util/ctags
@@ -40,6 +42,7 @@ net-analyzer/nload
 net-analyzer/traceroute
 net-dns/bind-tools
 net-fs/nfs-utils
+net-libs/webkit-gtk
 net-misc/aria2
 net-misc/autossh
 net-misc/openssh
@@ -60,13 +63,16 @@ sys-kernel/loongarch-git-sources
 sys-libs/libseccomp
 sys-process/htop
 sys-process/iotop
+www-client/luakit
 www-client/netsurf
 x11-apps/mesa-progs
 x11-base/xorg-server
 x11-misc/menumaker
 x11-misc/obconf
+x11-misc/rofi
 x11-misc/stalonetray
 x11-misc/tint2
+x11-misc/xdotool
 x11-terms/xfce4-terminal
 x11-wm/enlightenment
 x11-wm/openbox

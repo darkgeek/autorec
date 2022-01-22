@@ -269,3 +269,36 @@
 >=dev-perl/PlRPC-0.202.0-r4 **
 >=dev-perl/Net-Daemon-0.490.0 **
 >=virtual/perl-Sys-Syslog-0.360.0-r1 **
+
+>=dev-lang/ruby-0 **
+>=virtual/rubygems-0 **
+>=dev-ruby/rubygems-0 **
+>=app-eselect/eselect-ruby-0 **
+>=dev-ruby/did_you_mean-0 **
+>=dev-ruby/minitest-0 **
+>=dev-ruby/net-telnet-0 **
+>=dev-ruby/power_assert-0 **
+>=dev-ruby/rake-0 **
+>=dev-ruby/test-unit-3.3.9 **
+>=dev-ruby/xmlrpc-0 **
+>=dev-ruby/json-0 **
+>=dev-ruby/rdoc-0 **
+>=dev-ruby/kpeg-0 **
+>=dev-ruby/racc-0 **
+>=dev-util/ragel-0 **
+>=dev-util/colm-0 **
+>=dev-ruby/webrick-0 **
+>=dev-ruby/rbs-0 **
+>=dev-ruby/rexml-0 **
+>=dev-ruby/rss-0 **
+>=dev-ruby/typeprof-0 **
+>=virtual/ruby-ssl-0 **
+
+=www-client/luakit-2.3 **
+>=dev-lua/luafilesystem-0 **
+
+>=x11-misc/rofi-0 **
+>=x11-misc/xdotool-0 **
+>=x11-libs/xcb-util-xrm-0 **
+
+>=dev-python/pip-0 **
