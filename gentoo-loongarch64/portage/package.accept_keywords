@@ -339,3 +339,14 @@
 >=dev-python/pip-0 **
 
 >=sys-process/lsof-0 **
+
+>=app-admin/ansible-0 **
+>=app-admin/ansible-base-0 **
+>=dev-python/paramiko-0 **
+>=dev-python/pyyaml-0 **
+>=dev-python/httplib2-0 **
+>=dev-python/netaddr-0 **
+>=dev-python/resolvelib-0 **
+>=net-misc/sshpass-1 **
+>=dev-python/bcrypt-0 **
+>=dev-python/pynacl-0 **
