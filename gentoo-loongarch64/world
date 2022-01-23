@@ -64,6 +64,7 @@ sys-kernel/loongarch-git-sources
 sys-libs/libseccomp
 sys-process/htop
 sys-process/iotop
+sys-process/lsof
 www-client/luakit
 www-client/netsurf
 x11-apps/mesa-progs

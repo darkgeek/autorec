@@ -337,3 +337,5 @@
 >=x11-libs/xcb-util-xrm-0 **
 
 >=dev-python/pip-0 **
+
+>=sys-process/lsof-0 **
