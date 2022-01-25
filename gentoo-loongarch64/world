@@ -44,7 +44,6 @@ net-analyzer/nload
 net-analyzer/traceroute
 net-dns/bind-tools
 net-fs/nfs-utils
-net-libs/webkit-gtk
 net-misc/aria2
 net-misc/autossh
 net-misc/openssh
@@ -66,9 +65,9 @@ sys-libs/libseccomp
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
-www-client/luakit
 www-client/netsurf
 x11-apps/mesa-progs
+x11-apps/xhost
 x11-base/xorg-server
 x11-misc/menumaker
 x11-misc/obconf

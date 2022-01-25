@@ -350,3 +350,15 @@
 >=net-misc/sshpass-1 **
 >=dev-python/bcrypt-0 **
 >=dev-python/pynacl-0 **
+
+>=app-admin/gnome-passwordsafe-0 **
+>=dev-python/pycryptodome-0 **
+>=dev-python/pykeepass-0 **
+>=dev-libs/libpwquality-0 **
+>=sys-libs/cracklib-0 **
+>=dev-python/construct-0 **
+>=dev-python/future-0 **
+>=dev-libs/libtomcrypt-0 **
+>=dev-libs/libtommath-0 **
+
+>=x11-apps/xhost-0 **
