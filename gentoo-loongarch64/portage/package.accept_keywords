@@ -362,3 +362,10 @@
 >=dev-libs/libtommath-0 **
 
 >=x11-apps/xhost-0 **
+
+>=dev-python/more-itertools-0 **
+>=dev-python/ordered-set-0 **
+>=dev-python/flit_core-0 **
+>=dev-python/poetry-core-0 **
+>=dev-python/lark-parser-0 **
+>=dev-python/tomlkit-0 **
