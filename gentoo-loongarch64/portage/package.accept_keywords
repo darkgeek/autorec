@@ -369,3 +369,5 @@
 >=dev-python/poetry-core-0 **
 >=dev-python/lark-parser-0 **
 >=dev-python/tomlkit-0 **
+>=dev-python/importlib_metadata-0 **
+>=dev-python/zipp-0 **
