@@ -55,6 +55,7 @@ sys-apps/busybox
 sys-apps/man-db
 sys-apps/pciutils
 sys-apps/systemd
+sys-apps/texinfo::gentoo
 sys-boot/loongarch-acpi-tables-fix
 sys-devel/gcc
 sys-devel/gdb::darkgeek
