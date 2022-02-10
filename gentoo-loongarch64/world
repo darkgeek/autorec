@@ -19,6 +19,7 @@ app-office/gnumeric
 app-portage/eix
 app-portage/gentoolkit
 app-shells/fish
+app-text/atril
 app-text/tree
 dev-db/mariadb
 dev-lang/R
