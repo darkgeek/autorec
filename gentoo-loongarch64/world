@@ -36,6 +36,7 @@ dev-util/ctags
 media-fonts/noto-cjk
 media-fonts/noto-emoji
 media-gfx/feh
+media-libs/mesa
 media-sound/alsa-utils
 media-sound/pulseaudio
 media-video/mpv
@@ -59,7 +60,7 @@ sys-apps/texinfo::gentoo
 sys-boot/loongarch-acpi-tables-fix
 sys-devel/gcc
 sys-devel/gdb::darkgeek
-sys-devel/llvm::darkgeek
+sys-devel/llvm::loongson
 sys-kernel/genkernel
 sys-kernel/loongarch-git-sources
 sys-libs/libseccomp
