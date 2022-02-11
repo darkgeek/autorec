@@ -35,6 +35,8 @@ dev-python/pip
 dev-python/scipy
 dev-python/sympy
 dev-util/ctags
+games-misc/cowsay
+games-misc/fortune-mod
 media-fonts/noto-cjk
 media-fonts/noto-emoji
 media-gfx/feh

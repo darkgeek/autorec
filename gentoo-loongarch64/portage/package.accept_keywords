@@ -371,3 +371,17 @@
 >=dev-python/tomlkit-0 ~*
 >=dev-python/importlib_metadata-0 ~*
 >=dev-python/zipp-0 ~*
+
+>=games-misc/cowsay-0 ~*
+
+>=games-misc/fortune-mod-0 ~*
+>=app-text/recode-0 ~*
+>=app-text/App-XML-DocBook-Builder-0 ~*
+>=dev-perl/Class-XSAccessor-0 ~*
+>=dev-perl/Path-Tiny-0 ~*
+>=dev-perl/Test-Trap-0 ~*
+>=dev-perl/Data-Dump-0 ~*
+>=dev-perl/Unicode-UTF8-0 ~*
+>=virtual/perl-Time-HiRes-0 ~*
+>=virtual/perl-Digest-0 ~*
+>=virtual/perl-Test-Simple-0 ~*
