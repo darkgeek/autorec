@@ -1,4 +1,5 @@
 app-admin/ansible
+app-admin/keepassxc
 app-admin/stow
 app-admin/sudo
 app-arch/p7zip
