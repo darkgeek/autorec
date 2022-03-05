@@ -68,6 +68,7 @@ sys-devel/llvm::loongson
 sys-kernel/genkernel
 sys-kernel/loongarch-git-sources
 sys-libs/libseccomp
+sys-power/acpid
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
