@@ -89,6 +89,7 @@
 >=media-gfx/qrencode-4.1.1 ~*
 >=dev-qt/linguist-tools-5.15.2-r10 ~*
 >=dev-libs/double-conversion-3.1.7 ~*
+>=dev-qt/qtx11extras-0 ~*
 
 >=net-proxy/shadowsocks-libev-3.3.5 ~*
 >=net-libs/mbedtls-2.28.0-r1 ~*
