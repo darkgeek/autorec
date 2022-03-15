@@ -5,6 +5,10 @@ app-admin/sudo
 app-arch/p7zip
 app-arch/unrar
 app-crypt/pinentry
+app-dicts/dictd-foldoc
+app-dicts/dictd-gcide
+app-dicts/dictd-moby-thesaurus
+app-dicts/dictd-wn
 app-editors/pluma
 app-editors/vim
 app-eselect/eselect-repository
@@ -21,6 +25,7 @@ app-portage/eix
 app-portage/gentoolkit
 app-shells/fish
 app-text/atril
+app-text/dictd
 app-text/tree
 dev-db/mariadb
 dev-lang/R

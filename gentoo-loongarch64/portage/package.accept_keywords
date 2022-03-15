@@ -405,3 +405,12 @@
 >=x11-themes/numix-icon-theme-0 ~* 
 >=x11-themes/numix-icon-theme-circle-0 ~* 
 >=x11-themes/papirus-icon-theme-0 ~*
+
+>=app-text/dictd-0 ~*
+>=acct-group/dictd-0 ~*
+>=acct-user/dictd-0 ~*
+>=dev-libs/libmaa-0 ~*
+>=app-dicts/dictd-wn-0 ~*
+>=app-dicts/dictd-gcide-0 ~*
+>=app-dicts/dictd-moby-thesaurus-0 ~*
+>=app-dicts/dictd-foldoc-0 ~*
