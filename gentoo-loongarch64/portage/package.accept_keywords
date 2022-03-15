@@ -385,3 +385,22 @@
 >=virtual/perl-Time-HiRes-0 ~*
 >=virtual/perl-Digest-0 ~*
 >=virtual/perl-Test-Simple-0 ~*
+
+>=dev-python/beautifulsoup4-0 ~*
+
+>=x11-misc/lightdm-0 ~*
+>=x11-misc/lightdm-gtk-greeter-0 ~*
+
+>=xfce-extra/xfce4-notifyd-0 ~*
+
+>=xfce-extra/xfce4-dict-0 ~*
+>=xfce-extra/xfce4-netload-plugin-0 ~*
+>=xfce-extra/xfce4-whiskermenu-plugin-0 ~*
+>=xfce-extra/xfce4-systemload-plugin-0 ~*
+
+>=x11-themes/arc-theme-0 ~*
+>=x11-themes/arc-icon-theme-0 ~*
+>=x11-themes/numix-gtk-theme-0 ** 
+>=x11-themes/numix-icon-theme-0 ~* 
+>=x11-themes/numix-icon-theme-circle-0 ~* 
+>=x11-themes/papirus-icon-theme-0 ~*
