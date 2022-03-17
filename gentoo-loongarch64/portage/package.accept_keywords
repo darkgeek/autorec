@@ -414,3 +414,7 @@
 >=app-dicts/dictd-gcide-0 ~*
 >=app-dicts/dictd-moby-thesaurus-0 ~*
 >=app-dicts/dictd-foldoc-0 ~*
+
+>=x11-misc/mugshot-0 **
+>=dev-python/dbus-python-0 ~*
+>=dev-python/python-distutils-extra-0 ~*
