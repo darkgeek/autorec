@@ -418,3 +418,7 @@
 >=x11-misc/mugshot-0 **
 >=dev-python/dbus-python-0 ~*
 >=dev-python/python-distutils-extra-0 ~*
+
+>=x11-themes/fluent-icon-theme-0 ~*
+
+>=dev-python/nspektr-0 ~*
