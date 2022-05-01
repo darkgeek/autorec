@@ -1,0 +1,2 @@
+>=x11-libs/cairo-1.16.0-r5 opengl
+>=x11-libs/motif-2.3.8-r2 xft

@@ -1,0 +1,424 @@
+>=app-admin/stow-2.3.1 ~*
+
+>=sys-process/htop-3.1.2-r1 ~*
+
+>=app-shells/fish-3.3.1-r1 ~*
+
+>=app-misc/neofetch-7.1.0 ~*
+
+>=net-analyzer/nload-0.7.4-r1 ~*
+
+>=dev-util/ctags-20211017.0 ~*
+>=app-eselect/eselect-ctags-1.19 ~*
+
+>=dev-lang/lua-5.1.5-r106 ~*
+>=app-eselect/eselect-lua-3 ~*
+
+>=app-arch/p7zip-16.02-r8 ~*
+
+>=sys-process/iotop-0.6 ~*
+
+>=net-analyzer/httping-2.5 ~*
+
+>=net-misc/aria2-1.36.0 ~*
+
+>=net-misc/tigervnc-1.9.0-r2 ~*
+>=x11-libs/fltk-1.3.1 ~*
+>=virtual/glu-9.0-r2 ~*
+>=virtual/opengl-7.0-r2 ~*
+>=media-libs/glu-9.0.2 ~*
+
+>=app-text/tree-1.8.0 ~*
+
+>=app-eselect/eselect-repository-11 ~*
+
+>=x11-wm/openbox-3.6.1-r3 ~*
+>=x11-misc/obconf-2.0.4_p20150213 ~*
+>=x11-apps/mesa-progs-8.4.0-r1 ~*
+>=media-libs/glew-2.2.0 ~*
+
+>=x11-misc/tint2-17.0.1 ~*
+>=media-libs/imlib2-1.7.5 ~*
+>=media-libs/giflib-5.2.1-r1 ~*
+
+>=media-gfx/feh-3.7.2 ~*
+
+>=net-misc/autossh-1.4g ~*
+
+>=www-client/netsurf-3.10-r4 ~*
+>=dev-libs/libcss-0.9.1-r1 ~*
+>=net-libs/libdom-0.4.1-r1 ~*
+>=net-libs/libhubbub-0.3.7 ~*
+>=dev-libs/libnsutils-0.1.0-r1 ~*
+>=dev-libs/libutf8proc-2.6.1 ~*
+>=dev-libs/nsgenbind-0.8-r1 ~*
+>=dev-lang/duktape-2.6.0 ~*
+>=media-libs/libnspsl-0.1.6-r1 ~*
+>=media-libs/libsvgtiny-0.1.7-r2 ~*
+>=dev-libs/check-0.15.2-r1 ~*
+>=dev-libs/libwapcaplet-0.4.3-r1 ~*
+>=dev-libs/libparserutils-0.2.4-r3 ~*
+
+>=media-fonts/noto-cjk-20190416 ~*
+>=media-fonts/noto-emoji-20211101 ~*
+
+>=x11-misc/xscreensaver-6.01-r4 ~*
+>=media-libs/netpbm-10.86.27 ~*
+>=x11-apps/appres-1.0.5-r1 ~*
+>=x11-apps/xwininfo-1.1.5 ~*
+>=x11-libs/gdk-pixbuf-xlib-2.40.2 ~*
+>=media-gfx/fbida-2.14-r3 ~*
+>=x11-libs/motif-2.3.8-r2 ~*
+>=dev-util/byacc-20211224 ~*
+
+>=app-editors/neovim-0.5.1 ~*
+>=dev-lua/luv-1.36.0.0 ~*
+>=dev-lua/lpeg-1.0.2-r101 ~*
+>=dev-lua/mpack-1.0.9 ~*
+>=dev-lua/LuaBitOp-1.0.2-r103 ~*
+>=dev-libs/libvterm-0.1.3 ~*
+>=dev-libs/msgpack-3.3.0 ~*
+>=dev-libs/tree-sitter-0.20.2 ~*
+>=dev-libs/libtermkey-0.22 ~*
+>=dev-libs/unibilium-2.1.1 ~*
+>=dev-libs/libmpack-1.0.5 ~*
+
+>=app-admin/keepassxc-2.6.6 ~*
+>=dev-qt/qtconcurrent-5.15.2-r10 ~*
+>=dev-qt/qtsvg-5.15.2-r12 ~*
+>=media-gfx/qrencode-4.1.1 ~*
+>=dev-qt/linguist-tools-5.15.2-r10 ~*
+>=dev-libs/double-conversion-3.1.7 ~*
+>=dev-qt/qtx11extras-0 ~*
+
+>=net-proxy/shadowsocks-libev-3.3.5 ~*
+>=net-libs/mbedtls-2.28.0-r1 ~*
+>=net-libs/libbloom-1.6 ~*
+>=net-libs/libcork-0.15.0-r2 ~*
+>=net-libs/libcorkipset-1.1.1.20150311_p8 ~*
+>=net-dns/c-ares-1.18.1 ~*
+
+>=net-proxy/privoxy-3.0.33 ~*
+>=acct-group/privoxy-0-r1 ~*
+>=acct-user/privoxy-0-r1 ~*
+
+>=x11-misc/menumaker-0.99.12 ~*
+
+>=x11-wm/xpra-4.2.3 ~*
+>=dev-python/netifaces-0.11.0 ~*
+>=dev-python/pillow-9.0.0 ~*
+>=dev-python/rencode-1.0.6-r2 ~*
+>=x11-drivers/xf86-input-void-1.4.1 ~*
+>=dev-python/lz4-3.1.10 ~*
+>=acct-group/xpra-0 ~*
+>=dev-python/pkgconfig-1.5.5 ~*
+>=dev-python/pyproject2setuppy-22 ~*
+>=dev-python/olefile-0.46-r1 ~*
+
+>=xfce-extra/xfce4-clipman-plugin-1.6.2 ~*
+
+>=x11-wm/enlightenment-0.25.1 ~*
+>=dev-libs/efl-1.26.1-r1 ~*
+
+>=x11-misc/stalonetray-0.8.4 ~*
+
+>=app-editors/ecrire-0.2.0-r1 ~*
+
+>=media-libs/speexdsp-1.2.0 ~*
+>=dev-libs/libatomic_ops-7.6.12 ~*
+
+>=net-misc/telnet-bsd-1.2-r2 ~*
+
+>=app-i18n/fcitx-cloudpinyin-0.3.6 ~*
+>=app-i18n/fcitx-configtool-0.4.10 ~*
+>=app-i18n/fcitx-qt5-1.2.5 ~*
+>=app-i18n/fcitx-libpinyin-0.5.3 ~*
+>=app-i18n/libpinyin-2.3.0 ~*
+>=sys-libs/db-6.0.35-r4 ~*
+>=app-text/enchant-2.3.2 ~*
+
+>=net-dns/bind-tools-9.16.22 ~*
+
+>=media-video/mpv-0.34.0 ~*
+>=media-libs/libass-0.15.2 ~*
+>=media-libs/dav1d-0.9.2 ~*
+
+>=dev-python/installer-0.4.0_p20220115 ~*
+>=dev-python/wheel-0.37.0 ~*
+
+>=app-office/abiword-3.0.5 ~*
+>=app-text/wv-1.2.9-r2 ~*
+>=gnome-extra/libgsf-1.14.48 ~*
+>=x11-libs/goffice-0.10.50 ~*
+
+>=app-office/gnumeric-1.12.50 ~*
+
+>=dev-python/scipy-1.7.3 ~*
+>=dev-python/numpy-1.22.1 ~*
+>=sci-libs/arpack-3.8.0 ~*
+>=dev-python/pybind11-2.9.0 ~*
+>=dev-python/pythran-0.11.0 ~*
+>=dev-python/beniget-0.4.1 ~*
+>=dev-python/gast-0.5.3 ~*
+>=dev-python/ply-3.11-r1 ~*
+>=dev-cpp/eigen-3.4.0-r1 ~*
+>=virtual/cblas-3.8 ~*
+>=virtual/lapack-3.10 ~*
+>=virtual/fortran-0 ~*
+>=sci-libs/lapack-3.10.0 ~*
+>=virtual/blas-3.8 ~*
+
+>=dev-python/sympy-1.9 ~*
+>=dev-python/matplotlib-3.5.1 ~*
+>=dev-python/pandas-1.3.5 ~*
+>=dev-python/python-dateutil-2.8.2 ~*
+>=dev-python/bottleneck-1.3.2-r1 ~*
+>=dev-python/numexpr-2.8.1 ~*
+>=dev-python/cycler-0.11.0 ~*
+>=dev-python/fonttools-4.28.5 ~*
+>=dev-python/kiwisolver-1.3.2 ~*
+>=dev-python/versioneer-0.21 ~*
+>=media-fonts/stix-fonts-1.1.1 ~*
+>=media-libs/qhull-2020.2-r3 ~*
+>=dev-python/setuptools_scm_git_archive-1.1-r4 ~*
+>=dev-python/cppy-1.1.0 ~*
+>=dev-python/fs-2.4.14 ~*
+>=dev-python/appdirs-1.4.4-r1 ~*
+>=dev-python/mpmath-1.2.1 ~*
+>=dev-python/pexpect-4.8.0-r2 ~*
+>=dev-python/ptyprocess-0.7.0 ~*
+>=virtual/imagemagick-tools-0 ~*
+>=media-gfx/imagemagick-6.9.12.28 ~*
+
+>=dev-python/ipython-7.29.0 ~*
+>=dev-python/backcall-0.2.0 ~*
+>=dev-python/black-21.12_beta0 ~*
+>=dev-python/decorator-5.1.0 ~*
+>=dev-python/jedi-0.17.2-r1 ~*
+>=dev-python/matplotlib-inline-0.1.3 ~*
+>=dev-python/pickleshare-0.7.5 ~*
+>=dev-python/prompt_toolkit-3.0.24 ~*
+>=dev-python/stack_data-0.1.3-r1 ~*
+>=dev-python/traitlets-5.0.5 ~*
+>=dev-python/ipykernel-6.6.0 ~*
+>=dev-python/ipyparallel-6.3.0-r1 ~*
+>=dev-python/entrypoints-0.3-r2 ~*
+>=dev-python/pyzmq-22.1.0 ~*
+>=dev-python/jupyter_client-6.1.12 ~*
+>=dev-python/psutil-5.7.3 ~*
+>=dev-python/tqdm-4.62.3 ~*
+>=www-servers/tornado-6.1 ~*
+>=dev-python/pycurl-7.44.1 ~*
+>=dev-python/twisted-21.7.0 ~*
+>=dev-python/attrs-21.2.0 ~*
+>=dev-python/automat-20.2.0 ~*
+>=dev-python/constantly-15.1.0-r1 ~*
+>=dev-python/hyperlink-21.0.0 ~*
+>=dev-python/incremental-21.3.0 ~*
+>=dev-python/pyhamcrest-2.0.3 ~*
+>=dev-python/typing-extensions-4.0.1 ~*
+>=dev-python/zope-interface-5.4.0 ~*
+>=dev-python/pyopenssl-20.0.1 ~*
+>=dev-python/service_identity-21.1.0 ~*
+>=dev-python/pyasn1-0.4.8-r1 ~*
+>=dev-python/pyasn1-modules-0.2.8-r1 ~*
+>=dev-python/cryptography-3.4.7-r2 ~*
+>=dev-python/cffi-1.14.6 ~*
+>=dev-python/setuptools_rust-0.12.1 ~*
+>=dev-python/semantic_version-2.8.5 ~*
+>=dev-python/pycparser-2.21 ~*
+>=dev-python/namespace-zope-1-r1 ~*
+>=dev-python/click-7.1.2-r1 ~*
+>=dev-python/m2r-0.2.1 ~*
+>=dev-python/mistune-0.8.4-r1 ~*
+>=dev-python/jupyter_core-4.8.1 ~*
+>=dev-python/nest_asyncio-1.5.4 ~*
+>=net-libs/zeromq-4.3.3-r1 ~*
+>=dev-python/debugpy-1.5.1 ~*
+>=dev-python/pydevd-2.7.0 ~*
+>=dev-python/asttokens-2.0.5 ~*
+>=dev-python/executing-0.8.2 ~*
+>=dev-python/pure_eval-0.2.1-r1 ~*
+>=dev-python/wcwidth-0.2.5-r1 ~*
+>=dev-python/path-py-16.2.0 ~*
+>=dev-python/parso-0.8.3 ~*
+>=dev-python/mypy_extensions-0.4.3-r1 ~*
+>=dev-python/platformdirs-2.4.0 ~*
+>=dev-python/pathspec-0.9.0 ~*
+>=dev-python/jupyter_server-0 ~*
+>=dev-python/argon2-cffi-0 ~*
+>=dev-python/ipython_genutils-0 ~*
+>=dev-python/nbformat-0 ~*
+>=dev-python/nbconvert-0 ~*
+>=dev-python/send2trash-0 ~*
+>=dev-python/terminado-0 ~*
+>=dev-python/prometheus_client-0 ~*
+>=dev-python/anyio-0 ~*
+>=dev-python/websocket-client-0 ~*
+>=dev-python/sniffio-0 ~*
+>=dev-python/bleach-0 ~*
+>=dev-python/defusedxml-0 ~*
+>=dev-python/jupyterlab_pygments-0 ~*
+>=dev-python/nbclient-0 ~*
+>=dev-python/pandocfilters-0 ~*
+>=dev-python/testpath-0 ~*
+>=dev-python/html5lib-0 ~*
+>=dev-python/webencodings-0 ~*
+>=dev-python/jsonschema-0 ~*
+>=dev-python/pyrsistent-0 ~*
+>=dev-python/fqdn-0 ~*
+>=dev-python/isoduration-0 ~*
+>=dev-python/jsonpointer-0 ~*
+>=dev-python/rfc3339-validator-0 ~*
+>=dev-python/rfc3986-validator-0 ~*
+>=dev-python/rfc3987-0 ~*
+>=dev-python/uritemplate-0 ~*
+>=dev-python/webcolors-0 ~*
+>=dev-python/regex-0 ~*
+>=dev-python/strict-rfc3339-0 ~*
+>=dev-python/arrow-0 ~*
+>=dev-python/nose-0 ~*
+>=dev-python/argon2-cffi-bindings-0 ~*
+>=virtual/python-cffi-1 ~*
+
+>=dev-lang/R-4.1.0-r2 ~*
+>=x11-misc/xdg-utils-1.1.3 ~*
+>=dev-perl/File-MimeInfo-0.300.0 ~*
+>=x11-apps/xprop-1.2.5 ~*
+>=x11-apps/xset-1.2.4-r1 ~*
+>=dev-perl/File-BaseDir-0.80.0 ~*
+>=dev-perl/File-DesktopEntry-0.220.0 ~*
+>=dev-perl/IPC-System-Simple-1.300.0 ~*
+>=virtual/perl-File-Path-2.180.0 ~*
+
+>=app-arch/unrar-6.1.2 ~*
+
+>=dev-lang/quickjs-2021.03.27 ~*
+
+>=dev-db/mariadb-10.2.38-r2 ~*
+>=dev-db/mysql-init-scripts-2.3-r3 ~*
+>=acct-group/mysql-0-r1 ~*
+>=acct-user/mysql-0-r1 ~*
+>=dev-perl/DBD-mysql-4.50.0-r1 ~*
+>=dev-perl/DBI-1.643.0 ~*
+>=dev-db/mysql-connector-c-8.0.22 ~*
+>=dev-perl/PlRPC-0.202.0-r4 ~*
+>=dev-perl/Net-Daemon-0.490.0 ~*
+>=virtual/perl-Sys-Syslog-0.360.0-r1 ~*
+
+>=dev-lang/ruby-0 ~*
+>=virtual/rubygems-0 ~*
+>=dev-ruby/rubygems-0 ~*
+>=app-eselect/eselect-ruby-0 ~*
+>=dev-ruby/did_you_mean-0 ~*
+>=dev-ruby/minitest-0 ~*
+>=dev-ruby/net-telnet-0 ~*
+>=dev-ruby/power_assert-0 ~*
+>=dev-ruby/rake-0 ~*
+>=dev-ruby/test-unit-3.3.9 ~*
+>=dev-ruby/xmlrpc-0 ~*
+>=dev-ruby/json-0 ~*
+>=dev-ruby/rdoc-0 ~*
+>=dev-ruby/kpeg-0 ~*
+>=dev-ruby/racc-0 ~*
+>=dev-util/ragel-0 ~*
+>=dev-util/colm-0 ~*
+>=dev-ruby/webrick-0 ~*
+>=dev-ruby/rbs-0 ~*
+>=dev-ruby/rexml-0 ~*
+>=dev-ruby/rss-0 ~*
+>=dev-ruby/typeprof-0 ~*
+>=virtual/ruby-ssl-0 ~*
+
+=www-client/luakit-2.3 ~*
+>=dev-lua/luafilesystem-0 ~*
+
+>=x11-misc/rofi-0 ~*
+>=x11-misc/xdotool-0 ~*
+>=x11-libs/xcb-util-xrm-0 ~*
+
+>=dev-python/pip-0 ~*
+
+>=sys-process/lsof-0 ~*
+
+>=app-admin/ansible-0 ~*
+>=app-admin/ansible-base-0 ~*
+>=dev-python/paramiko-0 ~*
+>=dev-python/pyyaml-0 ~*
+>=dev-python/httplib2-0 ~*
+>=dev-python/netaddr-0 ~*
+>=dev-python/resolvelib-0 ~*
+>=net-misc/sshpass-1 ~*
+>=dev-python/bcrypt-0 ~*
+>=dev-python/pynacl-0 ~*
+
+>=app-admin/gnome-passwordsafe-0 ~*
+>=dev-python/pycryptodome-0 ~*
+>=dev-python/pykeepass-0 ~*
+>=dev-libs/libpwquality-0 ~*
+>=sys-libs/cracklib-0 ~*
+>=dev-python/construct-0 ~*
+>=dev-python/future-0 ~*
+>=dev-libs/libtomcrypt-0 ~*
+>=dev-libs/libtommath-0 ~*
+
+>=x11-apps/xhost-0 ~*
+
+>=dev-python/more-itertools-0 ~*
+>=dev-python/ordered-set-0 ~*
+>=dev-python/flit_core-0 ~*
+>=dev-python/poetry-core-0 ~*
+>=dev-python/lark-parser-0 ~*
+>=dev-python/tomlkit-0 ~*
+>=dev-python/importlib_metadata-0 ~*
+>=dev-python/zipp-0 ~*
+
+>=games-misc/cowsay-0 ~*
+
+>=games-misc/fortune-mod-0 ~*
+>=app-text/recode-0 ~*
+>=app-text/App-XML-DocBook-Builder-0 ~*
+>=dev-perl/Class-XSAccessor-0 ~*
+>=dev-perl/Path-Tiny-0 ~*
+>=dev-perl/Test-Trap-0 ~*
+>=dev-perl/Data-Dump-0 ~*
+>=dev-perl/Unicode-UTF8-0 ~*
+>=virtual/perl-Time-HiRes-0 ~*
+>=virtual/perl-Digest-0 ~*
+>=virtual/perl-Test-Simple-0 ~*
+
+>=dev-python/beautifulsoup4-0 ~*
+
+>=x11-misc/lightdm-0 ~*
+>=x11-misc/lightdm-gtk-greeter-0 ~*
+
+>=xfce-extra/xfce4-notifyd-0 ~*
+
+>=xfce-extra/xfce4-dict-0 ~*
+>=xfce-extra/xfce4-netload-plugin-0 ~*
+>=xfce-extra/xfce4-whiskermenu-plugin-0 ~*
+>=xfce-extra/xfce4-systemload-plugin-0 ~*
+
+>=x11-themes/arc-theme-0 ~*
+>=x11-themes/arc-icon-theme-0 ~*
+>=x11-themes/numix-gtk-theme-0 ** 
+>=x11-themes/numix-icon-theme-0 ~* 
+>=x11-themes/numix-icon-theme-circle-0 ~* 
+>=x11-themes/papirus-icon-theme-0 ~*
+
+>=app-text/dictd-0 ~*
+>=acct-group/dictd-0 ~*
+>=acct-user/dictd-0 ~*
+>=dev-libs/libmaa-0 ~*
+>=app-dicts/dictd-wn-0 ~*
+>=app-dicts/dictd-gcide-0 ~*
+>=app-dicts/dictd-moby-thesaurus-0 ~*
+>=app-dicts/dictd-foldoc-0 ~*
+
+>=x11-misc/mugshot-0 **
+>=dev-python/dbus-python-0 ~*
+>=dev-python/python-distutils-extra-0 ~*
+
+>=x11-themes/fluent-icon-theme-0 ~*
+
+>=dev-python/nspektr-0 ~*

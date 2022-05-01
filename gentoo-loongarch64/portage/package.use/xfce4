@@ -1,0 +1,4 @@
+>=app-crypt/gcr-3.40.0 gtk
+>=xfce-base/thunar-4.17.7 udisks
+>=gnome-base/gvfs-1.48.1-r1 udisks
+>=sys-apps/systemd-250.4 policykit

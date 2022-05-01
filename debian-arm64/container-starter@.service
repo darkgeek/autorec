@@ -1,0 +1,14 @@
+[Unit]
+Description=Run chroot container
+
+[Service]
+ExecStartPre=mount --bind "/home/justin/Shares/jails/%i" "/home/justin/Shares/jails/%i"
+ExecStartPre=mount --bind /home/justin/Downloads "/home/justin/Shares/jails/%i/home/justin/Downloads"
+ExecStart=/usr/bin/arch-chroot "/home/justin/Shares/jails/%i" /home/justin/Apps/bin/entrypoint.sh
+ExecStop=/home/justin/Apps/bin/kill-all-process-in-chroot.sh "/home/justin/Shares/jails/%i"
+ExecStopPost=umount --recursive "/home/justin/Shares/jails/%i"
+Restart=no
+
+[Install]
+WantedBy=default.target
+
