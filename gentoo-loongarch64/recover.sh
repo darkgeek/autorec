@@ -11,10 +11,10 @@ mv $HOME/.bashrc $HOME/.bashrc.bk
 cd $CURRENT_DIR
 
 # see https://forums.gentoo.org/viewtopic-t-926884-start-0.html
-echo Copying world file...
-sudo mkdir -p /var/lib/portage 
-sudo cp ./world /var/lib/portage/world
-sudo emerge -DuN world
+#echo Copying world file...
+#sudo mkdir -p /var/lib/portage 
+#sudo cp ./world /var/lib/portage/world
+#sudo emerge -DuN world
 
 echo "Recover dotfiles..."
 drag_dotfiles
