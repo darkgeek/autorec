@@ -16,10 +16,7 @@ function termux_move_action_file {
     mv $GREAT_LIST $1
 }
 
-#echo "Use fastest mirror..."
-#sed -i 's/deb/#deb/' /data/data/com.termux/files/usr/etc/apt/sources.list
-#echo "deb https://mirrors.tuna.tsinghua.edu.cn/termux stable main" >> /data/data/com.termux/files/usr/etc/apt/sources.list
-#pkg up
+pkg up
 
 echo "Recover packages..."
 echo "Working dir is $CURRENT_DIR"
@@ -33,11 +30,6 @@ stow_common_dotfiles
 
 echo "Grabing toybox..."
 mkdir $HOME/bin
-wget -c http://landley.net/toybox/bin/toybox-aarch64 -O $HOME/bin/toybox
-chmod +x $HOME/bin/toybox
-echo "alias top='toybox top'" >> $HOME/.bash_profile
-echo "alias uptime='toybox uptime'" >> $HOME/.bash_profile
-echo "alias ps='toybox ps'" >> $HOME/.bash_profile
 echo "export PATH=$PATH:$HOME/bin" >> $HOME/.bash_profile
 
 echo "Recover other config files..."
@@ -48,8 +40,6 @@ cp $CURRENT_DIR/bad-apps-detect-wrapper.sh $HOME/bin/
 cp $CURRENT_DIR/bad-apps-detect.sh $HOME/bin/
 cp $CURRENT_DIR/.mpdconf $HOME/
 mkdir $HOME/Music
-ln -s /sdcard/netease/cloudmusic/Music $HOME/Music/
-ln -s /sdcard/Movies $HOME/Music
 
 echo "You could just start syncthing to init your keepass before continue, press any key to continue"
 read noop
