@@ -13,6 +13,7 @@ app-editors/nano
 app-editors/vim
 app-eselect/eselect-repository
 app-misc/neofetch
+app-misc/nnn
 app-misc/tmux
 app-portage/eix
 app-portage/gentoolkit
@@ -36,6 +37,7 @@ games-misc/fortune-mod
 media-fonts/noto-cjk
 media-fonts/noto-emoji
 media-gfx/feh
+media-gfx/scrot
 media-sound/alsa-utils
 media-sound/pulseaudio
 media-video/mpv
