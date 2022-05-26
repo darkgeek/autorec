@@ -15,9 +15,6 @@ function init_services {
     echo start privoxy...
     privoxy --no-daemon ~/../usr/etc/privoxy/config > privoxy.log 2>&1 &
 
-    echo start mpd...
-    mpd --no-daemon --verbose > mpd.log 2>&1 &
-
     echo start pulseaudio...
     pulseaudio --daemonize=no --exit-idle-time=-1 > pulseaudio.log 2>&1 &
 
@@ -41,9 +38,6 @@ function kill_services {
 
     echo stop privoxy...
     start-stop-daemon -n privoxy -K
-
-    echo stop mpd...
-    start-stop-daemon -n mpd -K
 
     echo stop pulseaudio...
     pkill -f -9 pulseaudio
