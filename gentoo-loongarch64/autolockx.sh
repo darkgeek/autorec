@@ -11,6 +11,7 @@ while true; do
     if [ $current_idle -gt $IDLE_TIMEOUT ]; then
         xlock -mode blank
         echo "I'm going to lock the screen."
+        current_idle=0
     fi
     sleep 60
 done
