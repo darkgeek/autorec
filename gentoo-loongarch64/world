@@ -8,6 +8,7 @@ app-dicts/dictd-foldoc
 app-dicts/dictd-gcide
 app-dicts/dictd-moby-thesaurus
 app-dicts/dictd-wn
+app-editors/featherpad
 app-editors/nano
 app-editors/vim
 app-eselect/eselect-repository
@@ -49,6 +50,8 @@ net-misc/autossh
 net-misc/openssh
 net-misc/telnet-bsd
 net-misc/tigervnc
+net-proxy/privoxy
+net-proxy/shadowsocks-libev
 sys-apps/busybox
 sys-apps/man-db
 sys-apps/pciutils
