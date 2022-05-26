@@ -6,7 +6,6 @@ sync-type = git
 sync-uri = https://github.com/gentoo-mirror/guru.git
 
 
-
 [local]
 location = /var/db/repos/local
 sync-type = git

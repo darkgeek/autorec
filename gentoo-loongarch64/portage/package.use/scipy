@@ -1,0 +1,3 @@
+>=dev-python/numpy-1.22.3 lapack
+>=virtual/imagemagick-tools-0 tiff jpeg
+>=media-gfx/imagemagick-7.1.0.20-r1 tiff jpeg
