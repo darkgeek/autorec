@@ -13,7 +13,7 @@ app-editors/nano
 app-editors/vim
 app-eselect/eselect-repository
 app-misc/neofetch
-app-misc/nnn
+app-misc/ranger
 app-misc/tmux
 app-portage/eix
 app-portage/gentoolkit
