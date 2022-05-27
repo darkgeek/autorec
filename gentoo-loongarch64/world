@@ -11,6 +11,7 @@ app-dicts/dictd-wn
 app-editors/featherpad
 app-editors/nano
 app-editors/vim
+app-editors/vis
 app-emulation/qemu
 app-eselect/eselect-repository
 app-misc/neofetch
@@ -27,6 +28,7 @@ dev-lang/go
 dev-lang/lua
 dev-libs/elfutils
 dev-libs/glib
+dev-lua/lpeg
 dev-python/matplotlib
 dev-python/pandas
 dev-python/pip
