@@ -18,3 +18,5 @@
 >=app-text/xpdf-0 ~*
 
 >=x11-misc/copyq-0 ~*
+
+>=app-misc/nnn-0 ~*

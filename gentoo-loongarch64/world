@@ -11,6 +11,7 @@ app-dicts/dictd-wn
 app-editors/featherpad
 app-editors/nano
 app-editors/vim
+app-emulation/qemu
 app-eselect/eselect-repository
 app-misc/neofetch
 app-misc/ranger
@@ -22,6 +23,7 @@ app-text/mupdf
 app-text/tree
 app-text/xpdf
 dev-db/mariadb
+dev-lang/go
 dev-lang/lua
 dev-libs/elfutils
 dev-libs/glib
