@@ -42,6 +42,7 @@ media-fonts/noto-cjk
 media-fonts/noto-emoji
 media-gfx/feh
 media-gfx/scrot
+media-libs/mesa
 media-sound/alsa-utils
 media-sound/pulseaudio
 media-video/mpv
@@ -63,6 +64,7 @@ sys-apps/man-db
 sys-apps/pciutils
 sys-apps/systemd
 sys-apps/texinfo::gentoo
+sys-apps/usbutils
 sys-devel/gcc
 sys-devel/llvm-common::local
 sys-devel/llvm::local
@@ -71,6 +73,7 @@ sys-power/acpid
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
+www-client/w3m
 x11-apps/mesa-progs
 x11-base/xorg-server
 x11-misc/obmenu-generator
