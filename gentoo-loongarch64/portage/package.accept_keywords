@@ -20,3 +20,5 @@
 >=x11-misc/copyq-0 ~*
 
 >=app-misc/nnn-0 ~*
+
+>=app-text/sdcv-0 **

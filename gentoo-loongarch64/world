@@ -21,6 +21,7 @@ app-portage/eix
 app-portage/gentoolkit
 app-shells/fish
 app-text/mupdf
+app-text/sdcv
 app-text/tree
 app-text/xpdf
 dev-db/mariadb
