@@ -1,0 +1,11 @@
+#!/bin/sh
+
+dict_provider=`echo -e "dictd\nsdcv" | dmenu -p "Choose which provider to use: "`
+
+word_pattern=`echo -e | dmenu -p "Type in the word to search: "`
+
+if [ "$dict_provider" == "dictd" ]; then
+    dict $word_pattern | dmenu -l 20
+elif [ "$dict_provider" == "sdcv" ]; then
+    qterminal -e "sdcvw $word_pattern"
+fi

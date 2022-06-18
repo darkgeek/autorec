@@ -1,0 +1,5 @@
+#!/bin/sh
+
+word_pattern=$@
+definition=`STARDICT_DATA_DIR=~/Documents/dicts sdcv -n "$word_pattern"`
+echo "<pre>$definition</pre>"| w3m -T "text/html"
