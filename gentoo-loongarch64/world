@@ -49,6 +49,7 @@ media-sound/alsa-utils
 media-sound/pulseaudio
 media-video/mpv
 net-analyzer/httping
+net-analyzer/netcat
 net-analyzer/nload
 net-analyzer/traceroute
 net-dns/bind-tools
@@ -77,6 +78,7 @@ sys-process/iotop
 sys-process/lsof
 www-client/w3m
 x11-apps/mesa-progs
+x11-apps/xhost
 x11-base/xorg-server
 x11-misc/dmenu
 x11-misc/obmenu-generator
