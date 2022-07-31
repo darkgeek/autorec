@@ -60,6 +60,7 @@ net-misc/autossh
 net-misc/openssh
 net-misc/telnet-bsd
 net-misc/tigervnc
+net-misc/yt-dlp
 net-proxy/privoxy
 net-proxy/shadowsocks-libev
 sys-apps/busybox
