@@ -26,7 +26,6 @@ app-text/sdcv
 app-text/tree
 app-text/xpdf
 dev-db/mariadb
-dev-lang/go
 dev-lang/lua
 dev-libs/elfutils
 dev-libs/glib
