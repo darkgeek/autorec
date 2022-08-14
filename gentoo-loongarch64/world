@@ -39,6 +39,8 @@ dev-util/ctags
 dev-vcs/git
 games-misc/cowsay
 games-misc/fortune-mod
+games-misc/fortune-mod-kernelcookies
+games-misc/fortune-mod-osfortune
 media-fonts/noto-cjk
 media-fonts/noto-emoji
 media-gfx/feh
