@@ -34,7 +34,6 @@ dev-lua/lpeg
 dev-python/matplotlib
 dev-python/pandas
 dev-python/pip
-dev-python/scipy
 dev-python/sympy
 dev-util/ctags
 dev-vcs/git
