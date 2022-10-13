@@ -4,6 +4,7 @@ app-admin/stow
 app-admin/sudo
 app-arch/p7zip
 app-arch/unrar
+app-arch/zip
 app-crypt/pinentry
 app-dicts/dictd-foldoc
 app-dicts/dictd-gcide
@@ -74,6 +75,7 @@ sys-apps/usbutils
 sys-devel/gcc
 sys-devel/llvm-common::local
 sys-devel/llvm::local
+sys-fs/squashfs-tools
 sys-libs/libseccomp
 sys-power/acpid
 sys-process/htop
