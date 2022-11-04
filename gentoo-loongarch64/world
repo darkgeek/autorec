@@ -55,12 +55,15 @@ net-analyzer/httping
 net-analyzer/netcat
 net-analyzer/nload
 net-analyzer/traceroute
+net-dialup/minicom
 net-dns/bind-tools
 net-fs/nfs-utils
 net-fs/sshfs
 net-misc/aria2
 net-misc/autossh
+net-misc/mosh
 net-misc/openssh
+net-misc/rabbitmq-server
 net-misc/telnet-bsd
 net-misc/tigervnc
 net-misc/yt-dlp
@@ -75,6 +78,7 @@ sys-apps/usbutils
 sys-devel/gcc
 sys-devel/llvm-common::local
 sys-devel/llvm::local
+sys-fs/dosfstools
 sys-fs/squashfs-tools
 sys-libs/libseccomp
 sys-power/acpid
@@ -89,6 +93,7 @@ x11-misc/dmenu
 x11-misc/obmenu-generator
 x11-misc/stalonetray
 x11-misc/tint2
+x11-misc/xclip
 x11-misc/xlockmore
 x11-misc/xprintidle
 x11-plugins/e16-epplets

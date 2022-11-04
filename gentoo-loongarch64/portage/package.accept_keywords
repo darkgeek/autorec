@@ -24,3 +24,5 @@
 >=app-text/sdcv-0 **
 >=app-misc/pfetch-0 ~*
 >=app-admin/cpulimit-0 ~*
+
+>=net-misc/rabbitmq-server-0 ~*
