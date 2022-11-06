@@ -26,3 +26,5 @@
 >=app-admin/cpulimit-0 ~*
 
 >=net-misc/rabbitmq-server-0 ~*
+
+>=dev-lang/quickjs-0 ~*
