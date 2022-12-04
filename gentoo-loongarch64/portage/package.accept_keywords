@@ -28,3 +28,6 @@
 >=net-misc/rabbitmq-server-0 ~*
 
 >=dev-lang/quickjs-0 ~*
+>=net-misc/usbip-0 ~*
+
+>=net-p2p/syncthing-0 ~*

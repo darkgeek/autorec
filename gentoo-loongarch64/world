@@ -29,7 +29,9 @@ app-text/sdcv
 app-text/tree
 app-text/xpdf
 dev-db/mariadb
+dev-lang/go
 dev-lang/lua
+dev-lang/quickjs
 dev-libs/elfutils
 dev-libs/glib
 dev-lua/lpeg
@@ -66,7 +68,9 @@ net-misc/openssh
 net-misc/rabbitmq-server
 net-misc/telnet-bsd
 net-misc/tigervnc
+net-misc/usbip
 net-misc/yt-dlp
+net-p2p/syncthing
 net-proxy/privoxy
 net-proxy/shadowsocks-libev
 sys-apps/busybox
@@ -74,6 +78,7 @@ sys-apps/man-db
 sys-apps/pciutils
 sys-apps/systemd
 sys-apps/texinfo::gentoo
+sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-devel/gcc
 sys-devel/llvm-common::local
