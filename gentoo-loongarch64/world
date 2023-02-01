@@ -28,7 +28,6 @@ app-text/mupdf
 app-text/sdcv
 app-text/tree
 app-text/xpdf
-dev-db/mariadb
 dev-lang/go
 dev-lang/lua
 dev-lang/quickjs
@@ -61,6 +60,7 @@ net-dialup/minicom
 net-dns/bind-tools
 net-fs/nfs-utils
 net-fs/sshfs
+net-irc/weechat
 net-misc/aria2
 net-misc/autossh
 net-misc/mosh
@@ -70,7 +70,6 @@ net-misc/telnet-bsd
 net-misc/tigervnc
 net-misc/usbip
 net-misc/yt-dlp
-net-p2p/syncthing
 net-proxy/privoxy
 net-proxy/shadowsocks-libev
 sys-apps/busybox
@@ -108,4 +107,5 @@ x11-terms/xterm
 x11-themes/e16-themes
 x11-wm/e16
 x11-wm/fluxbox
+x11-wm/i3
 x11-wm/openbox
