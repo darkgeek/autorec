@@ -60,6 +60,7 @@ net-dialup/minicom
 net-dns/bind-tools
 net-fs/nfs-utils
 net-fs/sshfs
+net-ftp/atftp
 net-irc/weechat
 net-misc/aria2
 net-misc/autossh
@@ -83,6 +84,7 @@ sys-devel/gcc
 sys-devel/llvm-common::local
 sys-devel/llvm::local
 sys-fs/dosfstools
+sys-fs/ntfs3g
 sys-fs/squashfs-tools
 sys-libs/libseccomp
 sys-power/acpid
