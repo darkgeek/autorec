@@ -31,3 +31,4 @@
 >=net-misc/usbip-0 ~*
 
 >=net-p2p/syncthing-0 ~*
+>=media-gfx/zbar-0 ~*

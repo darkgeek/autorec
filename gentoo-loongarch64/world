@@ -48,6 +48,7 @@ media-fonts/noto-cjk
 media-fonts/noto-emoji
 media-gfx/feh
 media-gfx/scrot
+media-gfx/zbar
 media-libs/mesa
 media-sound/alsa-utils
 media-sound/pulseaudio
@@ -82,7 +83,6 @@ sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-devel/gcc
 sys-devel/llvm-common::local
-sys-devel/llvm::local
 sys-fs/dosfstools
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
