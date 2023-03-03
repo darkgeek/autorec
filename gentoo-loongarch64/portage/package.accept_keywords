@@ -32,3 +32,10 @@
 
 >=net-p2p/syncthing-0 ~*
 >=media-gfx/zbar-0 ~*
+
+>=gui-apps/foot-0 ~*
+>=media-libs/fcft-0 ~*
+>=dev-libs/tllist-0 ~*
+
+>=x11-misc/rofi-0 **
+>=x11-misc/xautolock-0 ~*

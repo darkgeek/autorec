@@ -33,6 +33,7 @@ dev-lang/lua
 dev-lang/quickjs
 dev-libs/elfutils
 dev-libs/glib
+dev-libs/wayland
 dev-lua/lpeg
 dev-python/matplotlib
 dev-python/pandas
@@ -44,6 +45,10 @@ games-misc/cowsay
 games-misc/fortune-mod
 games-misc/fortune-mod-kernelcookies
 games-misc/fortune-mod-osfortune
+gui-apps/foot
+gui-apps/swaybg
+gui-apps/swaylock
+gui-wm/sway
 media-fonts/noto-cjk
 media-fonts/noto-emoji
 media-gfx/feh
@@ -96,9 +101,14 @@ x11-apps/mesa-progs
 x11-apps/xhost
 x11-base/xorg-server
 x11-misc/dmenu
+x11-misc/i3lock
+x11-misc/i3status
 x11-misc/obmenu-generator
+x11-misc/picom
+x11-misc/rofi
 x11-misc/stalonetray
 x11-misc/tint2
+x11-misc/xautolock
 x11-misc/xclip
 x11-misc/xlockmore
 x11-misc/xprintidle
