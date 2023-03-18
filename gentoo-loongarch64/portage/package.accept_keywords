@@ -15,7 +15,7 @@
 
 >=net-fs/sshfs-0 ~*
 
->=app-text/xpdf-0 ~*
+>=app-text/xpdf-0 **
 
 >=x11-misc/copyq-0 ~*
 
