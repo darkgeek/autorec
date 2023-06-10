@@ -25,7 +25,6 @@ app-portage/eix
 app-portage/gentoolkit
 app-shells/fish
 app-text/mupdf
-app-text/sdcv
 app-text/tree
 app-text/xpdf
 dev-lang/go
@@ -40,6 +39,7 @@ dev-python/pandas
 dev-python/pip
 dev-python/sympy
 dev-util/ctags
+dev-util/strace
 dev-vcs/git
 games-misc/cowsay
 games-misc/fortune-mod

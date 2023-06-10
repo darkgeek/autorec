@@ -21,7 +21,6 @@
 
 >=app-misc/nnn-0 ~*
 
->=app-text/sdcv-0 **
 >=app-misc/pfetch-0 ~*
 >=app-admin/cpulimit-0 ~*
 
