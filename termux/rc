@@ -10,7 +10,7 @@ function init_services {
     syncthing -no-browser > ~/syncthing.log 2>&1 &
 
     echo start shadowsocks...
-    startarch sslocal -c $HOME/Shares/private/shadowsocks/config.json > ~/shadowsocks-libev.log 2>&1 &
+    startarch sslocal -c $HOME/Shares/private/shadowsocks/config.json > ~/shadowsocks.log 2>&1 &
 
     echo start privoxy...
     privoxy --no-daemon ~/../usr/etc/privoxy/config > privoxy.log 2>&1 &
@@ -33,7 +33,6 @@ function kill_services {
     start-stop-daemon -n syncthing -K
 
     echo stop shadowsocks...
-    #pkill -f -9 shadowsocks-local
     pkill -f -9 sslocal
 
     echo stop privoxy...
