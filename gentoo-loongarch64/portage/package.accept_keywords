@@ -15,13 +15,12 @@
 
 >=net-fs/sshfs-0 ~*
 
->=app-text/xpdf-0 ~*
+>=app-text/xpdf-0 **
 
 >=x11-misc/copyq-0 ~*
 
 >=app-misc/nnn-0 ~*
 
->=app-text/sdcv-0 **
 >=app-misc/pfetch-0 ~*
 >=app-admin/cpulimit-0 ~*
 
@@ -31,3 +30,11 @@
 >=net-misc/usbip-0 ~*
 
 >=net-p2p/syncthing-0 ~*
+>=media-gfx/zbar-0 ~*
+
+>=gui-apps/foot-0 ~*
+>=media-libs/fcft-0 ~*
+>=dev-libs/tllist-0 ~*
+
+>=x11-misc/rofi-0 **
+>=x11-misc/xautolock-0 ~*
