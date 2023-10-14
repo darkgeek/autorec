@@ -23,6 +23,12 @@ function init_services {
 
     echo start run-app-in-container service...
     startarch run-app-in-container-server.fish 9900 > run-app-in-container-service.log 2>&1 &
+
+    echo start playdns...
+    busybox start-stop-daemon -b -n playdns -S -x playdns
+
+    echo start haproxy...
+    haproxy -f $HOME/../usr/etc/haproxy/haproxy.cfg -d  > haproxy.log 2>&1 &
 }
 
 function kill_services {
@@ -47,6 +53,12 @@ function kill_services {
     echo stop run-app-in-container service...
     pkill -f -9 run-app-in-container-server.fish
     pkill -f -9 nc
+
+    echo stop playdns...
+    start-stop-daemon -n playdns -K
+
+    echo stop haproxy...
+    pkill -9 haproxy
 }
 
 function show_help {
